@@ -16,8 +16,8 @@ body {
     width: auto; 
 }
 h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+    font-weight: 900;
 }
 h2 {
     font-size: 1.8rem;
@@ -112,14 +112,23 @@ button:hover{
 }
 
 #home{
-    background-image: url(../image/4.png);
+    background-image: url(../image/44.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-position: bottom left center;
+    background-position: bottom center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     color: #f8f8f8;
+}
+
+#home h1{
+    margin: 0 0 10px 0;
+    font-style: Bold;
+}
+
+#home p{
+    font-style: italic;
 }
