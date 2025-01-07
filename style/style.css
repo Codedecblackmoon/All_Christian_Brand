@@ -162,6 +162,53 @@ button:hover{
     transition: 0.3s ease;
 }
 
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(255, 156, 43, 0.4);
+}
+
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5px;
+    transform: translateY(70px) ;
+    transition: 0.3s ease;
+}
+
+#new .one .details button:hover{
+    color: #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 @media screen and (max-width: 991px) {
     #navbarSupportedContent>ul{
         margin: 1rem;
