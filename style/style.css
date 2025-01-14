@@ -334,6 +334,11 @@ footer .copyright a:hover{
     opacity: 0.8;
 }
 
+#blog-containet .post h3{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 #blog-containet .post:hover h3{
     color: #ed7f02;
 }
