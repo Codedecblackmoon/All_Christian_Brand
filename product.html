@@ -69,7 +69,7 @@
               </li>
               <li class="nav-item">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-shopping-bag"></i>
+                <a class="nav-link" href="cart.html"><i  class="fa-solid fa-shopping-bag"></i></a>
               </li>
           </div>
         </div>
@@ -260,6 +260,42 @@
       smallimg[3].onclick = function(){
         MainImg.src = smallimg[3].src;
       }
+
+      // Add this to product.html
+      document.querySelector('.btn').addEventListener('click', function() {
+          const product = JSON.parse(localStorage.getItem('selectedProduct'));
+          const size = document.querySelector('select').value;
+          const quantity = parseInt(document.querySelector('input[type="number"]').value);
+          
+          if (size === 'Select Size') {
+              alert('Please select a size');
+              return;
+          }
+
+          const cartItem = {
+              name: product.name,
+              price: product.price,
+              size: size,
+              quantity: quantity,
+              image: product.mainImage
+          };
+
+          const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+          
+          // Check if item already exists in cart
+          const existingItemIndex = cartItems.findIndex(item => 
+              item.name === cartItem.name && item.size === cartItem.size
+          );
+
+          if (existingItemIndex > -1) {
+              cartItems[existingItemIndex].quantity += quantity;
+          } else {
+              cartItems.push(cartItem);
+          }
+
+          localStorage.setItem('cartItems', JSON.stringify(cartItems));
+          alert('Item added to cart!');
+        });
 
     </script>
     <script src="./js/index.js"></script>
