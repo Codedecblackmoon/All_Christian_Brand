@@ -112,6 +112,25 @@ button:hover{
     color: #ed7f02;
 }
 
+#cart-items > div:nth-child(n) > div > div:nth-child(2){
+    font-size: 12px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#cart-items > div:nth-child(n) > div > div:nth-child(2) > h5{
+    font-size: 12px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#cart-items > div:nth-child(n) > div > div.col-1{
+    padding-top: 5px;
+}
+
+#cart-items > div:nth-child(n) > div > div:nth-child(3) > div > span{
+    padding: 10px;
+}
 .navbar i{
     padding-top: 13px;
     padding-left: 10px;

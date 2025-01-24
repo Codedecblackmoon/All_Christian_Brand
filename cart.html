@@ -184,44 +184,60 @@
         });
 
         function displayCart() {
-            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
-            const cartContainer = document.getElementById('cart-items');
-            let subtotal = 0;
+          const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+          const cartContainer = document.getElementById('cart-items');
+          let subtotal = 0;
 
-            cartContainer.innerHTML = '';
+          cartContainer.innerHTML = '';
 
-            cartItems.forEach((item, index) => {
-                subtotal += parseFloat(item.price.replace('R', '')) * item.quantity;
-                
-                cartContainer.innerHTML += `
-                    <div class="cart-item">
-                        <div class="row align-items-center">
-                            <div class="col-2">
-                                <img src="${item.image}" alt="${item.name}" class="img-fluid">
-                            </div>
-                            <div class="col-4">
-                                <h5>${item.name}</h5>
-                                <p>Size: ${item.size}</p>
-                            </div>
-                            <div class="col-2">
-                                <p>${item.price}</p>
-                            </div>
-                            <div class="col-3">
-                                <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">-</button>
-                                <span>${item.quantity}</span>
-                                <button class="quantity-btn" onclick="updateQuantity(${index}, 1)">+</button>
-                            </div>
-                            <div class="col-1">
-                                <i class="fas fa-trash remove-btn" onclick="removeItem(${index})"></i>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            });
+          cartItems.forEach((item, index) => {
+              subtotal += parseFloat(item.price.replace('R', '')) * item.quantity;
+              
+              cartContainer.innerHTML += `
+                  <div class="cart-item">
+                      <div class="row align-items-center">
+                          <div class="col-4 d-md-none">
+                              <img src="${item.image}" alt="${item.name}" class="img-fluid mb-2">
+                          </div>
+                          <div class="col-4 d-md-none">
+                              <h5>${item.name}</h5>
+                              <p>Size: ${item.size}</p>
+                              <p>${item.price}</p>
+                          </div>
+                          <div class="col-4 d-md-none">
+                              <div class="d-flex align-items-center justify-content-center">
+                                  <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">-</button>
+                                  <span>${item.quantity}</span>
+                                  <button class="quantity-btn" onclick="updateQuantity(${index}, 1)">+</button>
+                              </div>
+                          </div>
 
-            document.getElementById('subtotal').textContent = `R${subtotal.toFixed(2)}`;
-            document.getElementById('total').textContent = `R${(subtotal + 50).toFixed(2)}`;
-        }
+                          <div class="d-none d-md-flex col-2">
+                              <img src="${item.image}" alt="${item.name}" class="img-fluid">
+                          </div>
+                          <div class="d-none d-md-flex col-4">
+                              <h5>${item.name}</h5>
+                              <p>Size: ${item.size}</p>
+                          </div>
+                          <div class="d-none d-md-flex col-2">
+                              <p>${item.price}</p>
+                          </div>
+                          <div class="d-none d-md-flex col-3">
+                              <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">-</button>
+                              <span>${item.quantity}</span>
+                              <button class="quantity-btn" onclick="updateQuantity(${index}, 1)">+</button>
+                          </div>
+                          <div class="col-1">
+                              <i class="fas fa-trash remove-btn" onclick="removeItem(${index})"></i>
+                          </div>
+                      </div>
+                  </div>
+              `;
+          });
+
+          document.getElementById('subtotal').textContent = `R${subtotal.toFixed(2)}`;
+          document.getElementById('total').textContent = `R${(subtotal + 50).toFixed(2)}`;
+      }
 
         function updateQuantity(index, change) {
             const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
