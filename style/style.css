@@ -108,7 +108,12 @@ button:hover{
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar i:hover,
 .navbar-light .navbar-nav .nav-link.active,
-.navbar i.active{
+.navbar i.active,
+.navbar a{
+    color: #ed7f02;
+}
+
+#navbarSupportedContent > ul > li:nth-child(6) > a:active{
     color: #ed7f02;
 }
 
@@ -128,7 +133,8 @@ button:hover{
     padding-top: 5px;
 }
 
-#cart-items > div:nth-child(n) > div > div:nth-child(3) > div > span{
+#cart-items > div:nth-child(n) > div > div:nth-child(3) > div > span,
+#cart-items > div > div > div.d-none.d-md-flex.col-3 > span{
     padding: 10px;
 }
 .navbar i{
