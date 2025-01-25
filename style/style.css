@@ -60,17 +60,18 @@ button{
     border-radius: 4px;
     transition: 0.3s ease;
     text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 button:hover{
     background-color: #ed7f02;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 #bar{
     font-size: 16px;
     top: 0;
     left: 0;
-    /* padding: 0, 50px; */
 }
 
 .navbar-light .navbar-toggler{
@@ -137,6 +138,8 @@ button:hover{
 #cart-items > div > div > div.d-none.d-md-flex.col-3 > span{
     padding: 10px;
 }
+
+
 .navbar i{
     padding-top: 13px;
     padding-left: 10px;
@@ -181,6 +184,7 @@ button:hover{
     background-size: cover;
     position: relative;
     margin-bottom: 0px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 #new .one .details{
@@ -190,6 +194,10 @@ button:hover{
     top: 0;
     left: 0;
     transition: 0.3s ease;
+}
+
+#new .one .details h2{
+    color: #f3f3f3;
 }
 
 #new .one:hover .details{
@@ -208,11 +216,13 @@ button:hover{
     padding: 2.5px;
     transform: translateY(70px) ;
     transition: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 #new .one .details button:hover{
     color: #D8D8D8;
     border-bottom: 1px solid #D8D8D8;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 #new .one:nth-child(1) .details{
@@ -261,11 +271,12 @@ hr{
 
 .product img{
     transition: 0.3s all;
-
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .product:hover img{
     opacity: 0.7;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .product .buy-btn{
@@ -273,11 +284,13 @@ hr{
     transform: translateY(20px);
     opacity: 0;
     transition: 0.3s all;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .product:hover .buy-btn{
     transform: translateY(0);
     opacity: 1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 #banner{
@@ -297,6 +310,7 @@ hr{
 
 #banner button{
     background-color: #ed7f02;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 footer{
@@ -425,11 +439,13 @@ footer .copyright a:hover{
     body>nav>div>button:hover,
     body>nav>div>button:focus{
         background-color: #ed7f02;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
 
     body>nav>div>button:hover #bar,
     body>nav>div>button:focus #bar{
         color: #fff;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
 
     #navbarSupportedContent>ul{
