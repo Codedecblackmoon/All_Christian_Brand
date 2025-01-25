@@ -69,7 +69,7 @@
             <a class="nav-link" href="Contact_us.html">Contact us</a>
           </li>
           <li class="nav-item">
-            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+            <i class="fa-solid fa-magnifying-glass"></i>
             <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
           </li>
       </div>
@@ -263,10 +263,47 @@
       }
 
       // Add this to product.html
+      // document.querySelector('.btn').addEventListener('click', function() {
+      //   const product = JSON.parse(localStorage.getItem('selectedProduct'));
+      //   const size = document.querySelector('select').value;
+      //   const quantity = parseInt(document.querySelector('input[type="number"]').value);
+        
+      //   if (size === 'Select Size') {
+      //       alert('Please select a size');
+      //       return;
+      //   }
+
+      //   const cartItem = {
+      //       name: product.name,
+      //       price: product.price,
+      //       size: size,
+      //       quantity: quantity,
+      //       image: product.mainImage
+      //   };
+
+      //   const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        
+      //   // Check if item already exists in cart
+      //   const existingItemIndex = cartItems.findIndex(item => 
+      //       item.name === cartItem.name && item.size === cartItem.size
+      //   );
+
+      //   if (existingItemIndex > -1) {
+      //       cartItems[existingItemIndex].quantity += quantity;
+      //   } else {
+      //       cartItems.push(cartItem);
+      //   }
+
+      //   localStorage.setItem('cartItems', JSON.stringify(cartItems));
+      //   updateCartCounter(); // Add this line
+      //   // alert('Item added to cart!');
+      // });
+
       document.querySelector('.btn').addEventListener('click', function() {
         const product = JSON.parse(localStorage.getItem('selectedProduct'));
         const size = document.querySelector('select').value;
         const quantity = parseInt(document.querySelector('input[type="number"]').value);
+        const addButton = this;
         
         if (size === 'Select Size') {
             alert('Please select a size');
@@ -295,9 +332,21 @@
         }
 
         localStorage.setItem('cartItems', JSON.stringify(cartItems));
-        updateCartCounter(); // Add this line
-        // alert('Item added to cart!');
-      });
+        updateCartCounter();
+
+        // Animation logic
+        const originalText = addButton.textContent;
+        addButton.style.transition = 'all 0.5s ease';
+        addButton.textContent = 'Added!';
+        addButton.style.backgroundColor = '#28a745';
+        addButton.style.transform = 'scale(1.1)';
+
+        setTimeout(() => {
+            addButton.textContent = originalText;
+            addButton.style.backgroundColor = '#ed7f02';
+            addButton.style.transform = 'scale(1)';
+        }, 2000);
+    });
 
         
 
