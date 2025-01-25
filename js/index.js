@@ -1,4 +1,4 @@
-// Store product data
+
 const products = {
     'm1': {
         name: 'Sports Cap',
@@ -205,6 +205,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.location.pathname.includes('product.html')) {
         loadProductDetails();
     }
+
+    updateCartCounter();
 });
 
 // Load product details on the product page
@@ -255,3 +257,72 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+function updateCartCounter() {
+    const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+    const cartLink = document.querySelector('a[href="cart.html"] i');
+    
+    if (cartLink) {
+        // Remove any existing counter
+        const existingCounter = cartLink.parentNode.querySelector('.cart-counter');
+        if (existingCounter) {
+            existingCounter.remove();
+        }
+
+        // Calculate total number of items
+        const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0);
+        
+        // Create and add counter if there are items
+        if (totalItems > 0) {
+            const counterSpan = document.createElement('span');
+            counterSpan.className = 'cart-counter badge badge-danger';
+            counterSpan.style.cssText = `
+                position: absolute; 
+                top: -8px; 
+                right: -8px; 
+                background-color: #ed7f02; 
+                color: white; 
+                border-radius: 50%; 
+                padding: 2px 6px; 
+                font-size: 0.7rem; 
+                line-height: 1;
+                min-width: 20px;
+                text-align: center;
+            `;
+            counterSpan.textContent = totalItems;
+
+            // Ensure parent has relative positioning
+            cartLink.parentNode.style.position = 'relative';
+            cartLink.parentNode.appendChild(counterSpan);
+        }
+    }
+}
+
+// Add to cart function with counter update
+function addToCart(product, size, quantity) {
+    const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+    
+    const cartItem = {
+        name: product.name,
+        price: product.price,
+        size: size,
+        quantity: quantity,
+        image: product.mainImage
+    };
+
+    // Check if item already exists in cart
+    const existingItemIndex = cartItems.findIndex(item => 
+        item.name === cartItem.name && item.size === cartItem.size
+    );
+
+    if (existingItemIndex > -1) {
+        cartItems[existingItemIndex].quantity += quantity;
+    } else {
+        cartItems.push(cartItem);
+    }
+
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    updateCartCounter();
+    // alert('Item added to cart!');
+}
