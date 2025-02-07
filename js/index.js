@@ -90,11 +90,11 @@ const products = {
         rating: 5,
         category: 'Shoes'
     },
-    'm11': {
+    'p1': {
         name: 'Bucket Hat Classic',
         price: 'R180.00',
         description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
-        mainImage: './image/m11.png',
+        mainImage: './image/products/p1.jpeg',
         gallery: ['./image/m9.png', './image/m11.png', './image/m12.png', './image/m10.png'],
         rating: 4,
         category: 'Hats'
