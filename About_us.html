@@ -27,23 +27,41 @@
           background-color: rgb(14, 14, 14);
           color: #e6e6e6;
           border-radius: 5px;
-          box-shadow: #707070;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
           padding: 10px;
         }
 
         #mid_2{
           display: flex;
           flex-direction: row;
+          justify-content: center;
+          align-items: center;
           gap: 20px;
           padding: 20px 100px 10px 100px;
+        }
+
+        #mid_1{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 30px;
+        }
+
+        #mid_1 > div {
+          padding: 20px;
         }
 
         #mid_2 > div > p{
           font-size: 2rem;
         }
 
-        #mid_2 > div > h2{
+        #mid_2 > div > h2, #mid_1 > div > h3{
           text-align: center;
+          color: #ed7f02;
+        }
+        span{
           color: #ed7f02;
         }
 
@@ -63,6 +81,7 @@
         .top img, #mid_1 img, #mid_2 img{
           /* width: 500px; */
           height: 400px;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
           /* border-radius: 50%; */
         }
     </style>
@@ -107,6 +126,7 @@
                 <div class="top">
                   <div id="text">
                      <h1 class="mb-4">About Our Brand</h1>
+                     <hr class="mx-auto">
                     <p><strong>"All Christian"</strong> embodies unity, faith and compassion. This brand represents a community that shares Christian values, promoting love, kindness and acceptance. It symbolizes a collective identity for Christians worldwide, fostering belonging and spiritual connection.</p>
                   </div>
                   <img src="./image/adds/A7.jpeg" alt="About Us" class="img-fluid">
@@ -129,8 +149,9 @@
 
           <div id="mid_1">
             <div>
-              <h4 class="mt-4">Inspiration</h4>
-              <p>The early Christians were inspired by the early church and how they were passionate to serve the Lord and one another. Acts 4:32-37</p>
+              <h3 class="mt-4">Inspiration</h3>
+              <hr class="mx-auto">
+              <p>The early Christians were inspired by the early church and how they were passionate to serve the Lord and one another. <br> <span>Acts 4:32-37</span></p>
             </div>
              <img src="./image/adds/1_PXh9vgUKwKZhFleXZuCGiQ.png" alt="">
           </div>
