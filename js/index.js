@@ -215,7 +215,7 @@ function loadProductDetails() {
     
     if (!selectedProduct) return;
 
-    // Update main product imagelll
+    // Update main product image
     const mainImg = document.getElementById('mainImg');
     if (mainImg) mainImg.src = selectedProduct.mainImage;
 
