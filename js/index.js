@@ -9,12 +9,12 @@ const products = {
         rating: 3,
         category: 'Caps'
     },
-    'm2': {
+    'p16': {
         name: 'Woolen Scarf',
         price: 'R150.00',
         description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
-        mainImage: './image/m2.png',
-        gallery: ['./image/m2.png', './image/m5.png', './image/m6.png', './image/m7.png'],
+        mainImage: './image/product/p16.png',
+        gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p18.png', './image/product/p38.png'],
         rating: 5,
         category: 'Scarves'
     },
