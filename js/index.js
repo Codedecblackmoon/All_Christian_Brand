@@ -1,11 +1,11 @@
 
 const products = {
-    'm1': {
+    'p15': {
         name: 'Sports Cap',
         price: 'R120.00',
         description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
-        mainImage: './image/m1.png',
-        gallery: ['./image/m1.png', './image/m2.png', './image/m3.png', './image/m4.png'],
+        mainImage: './image/product/p15.png',
+        gallery: ['./image/product/p6.png', './image/product/p37.png', './image/product/p13.png', './image/product/p12.png'],
         rating: 3,
         category: 'Caps'
     },
