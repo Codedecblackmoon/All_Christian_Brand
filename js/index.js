@@ -162,12 +162,12 @@ const products = {
         rating: 5,
         category: 'Bags'
     },
-    'm19': {
+    'p59': {
         name: 'Vintage Hat',
         price: 'R350.00',
         description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
-        mainImage: './image/m19.png',
-        gallery: ['./image/m19.png', './image/m12.png', './image/m14.png', './image/m15.png'],
+        mainImage: './image/product/p59.png',
+        gallery: ['./image/product/p56.png', './image/product/p57.png', './image/product/p58.png', './image/product/p60.png'],
         rating: 4,
         category: 'Hats'
     },
