@@ -153,12 +153,12 @@ const products = {
         rating: 4,
         category: 'Bags'
     },
-    'm18': {
+    'p49': {
         name: 'Travel Backpack',
         price: 'R1100.00',
         description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
-        mainImage: './image/m18.png',
-        gallery: ['./image/m18.png', './image/m19.png', './image/m10.png', './image/m11.png'],
+        mainImage: './image/product/p49.png',
+        gallery: ['./image/product/p50.png', './image/product/p51.png', './image/product/p52.png', './image/product/p53.png'],
         rating: 5,
         category: 'Bags'
     },
