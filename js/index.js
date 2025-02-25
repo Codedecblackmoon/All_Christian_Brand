@@ -158,7 +158,7 @@ const products = {
         price: 'R1100.00',
         description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
         mainImage: './image/product/p49.png',
-        gallery: ['./image/product/p50.png', './image/product/p51.png', './image/product/p52.png', './image/product/p53.png'],
+        gallery: ['./image/product/p50.png', './image/product/p51.png', './image/product/p54.png', './image/product/p48.png'],
         rating: 5,
         category: 'Bags'
     },
