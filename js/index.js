@@ -171,12 +171,12 @@ const products = {
         rating: 4,
         category: 'Hats'
     },
-    'm20': {
+    'p64': {
         name: 'Premium T-Shirt',
         price: 'R180.00',
         description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
-        mainImage: './image/m20.png',
-        gallery: ['./image/m20.png', './image/m19.png', './image/m18.png', './image/m17.png'],
+        mainImage: './image/product/p64.png',
+        gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
         category: 'T-Shirts'
     }
