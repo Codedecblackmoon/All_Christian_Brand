@@ -63,30 +63,30 @@ const products = {
         rating: 4,
         category: 'Accessories'
     },
-    'm8': {
+    'p72': {
         name: 'Graphic Hoodie',
         price: 'R600.00',
         description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
-        mainImage: './image/m8.png',
-        gallery: ['./image/m8.png', './image/m11.png', './image/m12.png', './image/m13.png'],
+        mainImage: './image/product/p72.png',
+        gallery: ['./image/product/p71.png', './image/product/p67.png', './image/product/p69.png', './image/product/p68.png'],
         rating: 4,
         category: 'Hoodies'
     },
-    'm9': {
+    'p77': {
         name: 'Knitted Beanie',
         price: 'R100.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/m9.png',
-        gallery: ['./image/m9.png', './image/m10.png', './image/m14.png', './image/m15.png'],
+        mainImage: './image/product/p77.png',
+        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
         rating: 3,
         category: 'Hats'
     },
-    'm10': {
+    'p82': {
         name: 'Casual Sneakers',
         price: 'R900.00',
         description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
-        mainImage: './image/m10.png',
-        gallery: ['./image/m10.png', './image/m16.png', './image/m17.png', './image/m18.png'],
+        mainImage: './image/product/p82.png',
+        gallery: ['./image/product/p81.png', './image/product/p80.png', './image/product/p79.png', './image/product/p78.png'],
         rating: 5,
         category: 'Shoes'
     },
@@ -99,12 +99,12 @@ const products = {
         rating: 4,
         category: 'Hats'
     },
-    'm12': {
+    'p87': {
         name: 'Wrist Watch',
         price: 'R1200.00',
         description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
-        mainImage: './image/m12.png',
-        gallery: ['./image/m12.png', './image/m13.png', './image/m14.png', './image/m15.png'],
+        mainImage: './image/product/p86.png',
+        gallery: ['./image/product/p85.png', './image/product/p84.png', './image/product/p83.png', './image/product/p86.png'],
         rating: 5,
         category: 'Accessories'
     },
