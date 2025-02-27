@@ -144,12 +144,12 @@ const products = {
         rating: 4,
         category: 'Activewear'
     },
-    'm17': {
+    'p112': {
         name: 'Gym Bag',
         price: 'R800.00',
         description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
-        mainImage: './image/m17.png',
-        gallery: ['./image/m17.png', './image/m18.png', './image/m19.png', './image/m10.png'],
+        mainImage: './image/product/p112.png',
+        gallery: ['./image/product/p113.png', './image/product/p114.png', './image/product/p115.png', './image/product/p116.png'],
         rating: 4,
         category: 'Bags'
     },
