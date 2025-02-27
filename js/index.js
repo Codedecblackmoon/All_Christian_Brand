@@ -108,39 +108,39 @@ const products = {
         rating: 5,
         category: 'Accessories'
     },
-    'm13': {
+    'p91': {
         name: 'Formal Shirt',
         price: 'R400.00',
         description: 'Crisp formal shirt made with high-quality fabric. Ideal for office wear.',
-        mainImage: './image/m13.png',
-        gallery: ['./image/m13.png', './image/m16.png', './image/m17.png', './image/m18.png'],
+        mainImage: './image/product/p91.png',
+        gallery: ['./image/product/p90.png', './image/product/p89.png', './image/product/p88.png', './image/product/p91.png'],
         rating: 4,
         category: 'Shirts'
     },
-    'm14': {
+    'p97': {
         name: 'Summer Dress',
         price: 'R550.00',
         description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
-        mainImage: './image/m14.png',
-        gallery: ['./image/m14.png', './image/m15.png', './image/m16.png', './image/m19.png'],
+        mainImage: './image/product/p97.png',
+        gallery: ['./image/product/p96.png', './image/product/p95.png', './image/product/p94.png', './image/product/p93.png'],
         rating: 5,
         category: 'Dresses'
     },
-    'm15': {
+    'p104': {
         name: 'Wool Coat',
         price: 'R1000.00',
         description: 'Luxurious wool coat for a sophisticated and warm winter look.',
-        mainImage: './image/m15.png',
-        gallery: ['./image/m15.png', './image/m17.png', './image/m18.png', './image/m19.png'],
+        mainImage: './image/product/p104.png',
+        gallery: ['./image/product/p103.png', './image/product/p102.png', './image/product/p101.png', './image/product/p100.png'],
         rating: 5,
         category: 'Coats'
     },
-    'm16': {
+    'p110': {
         name: 'Running Shorts',
         price: 'R300.00',
         description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
-        mainImage: './image/m16.png',
-        gallery: ['./image/m16.png', './image/m17.png', './image/m18.png', './image/m19.png'],
+        mainImage: './image/product/p110.png',
+        gallery: ['./image/product/p109.png', './image/product/p108.png', './image/product/p107.png', './image/product/p106.png'],
         rating: 4,
         category: 'Activewear'
     },
