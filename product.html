@@ -59,9 +59,6 @@
           <li class="nav-item">
             <a class="nav-link active" href="shop.html">Shop</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="About_us.html">About</a>
           </li>
@@ -124,7 +121,7 @@
         </div>
         <div class="row mx-auto container-fluid">
           <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img class="img-fluid mb-3" src="./image/m11.png" alt="">
+            <img class="img-fluid mb-3" src="./image/product/p119.png" alt="">
             <div class="star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -137,7 +134,7 @@
             <button class="buy-btn">Buy Now</button>
           </div>
           <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img class="img-fluid mb-3" src="./image/m20.png" alt="">
+            <img class="img-fluid mb-3" src="./image/product/p72.png" alt="">
             <div class="star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -150,7 +147,7 @@
             <button class="buy-btn">Buy Now</button>
           </div>
           <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img class="img-fluid mb-3" src="./image/m3.png" alt="">
+            <img class="img-fluid mb-3" src="./image/product/p16.png" alt="">
             <div class="star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -163,7 +160,7 @@
             <button class="buy-btn">Buy Now</button>
           </div>
           <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img class="img-fluid mb-3" src="./image/m6.png" alt="">
+            <img class="img-fluid mb-3" src="./image/product/p49.png" alt="">
             <div class="star">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -261,43 +258,6 @@
       smallimg[3].onclick = function(){
         MainImg.src = smallimg[3].src;
       }
-
-      // Add this to product.html
-      // document.querySelector('.btn').addEventListener('click', function() {
-      //   const product = JSON.parse(localStorage.getItem('selectedProduct'));
-      //   const size = document.querySelector('select').value;
-      //   const quantity = parseInt(document.querySelector('input[type="number"]').value);
-        
-      //   if (size === 'Select Size') {
-      //       alert('Please select a size');
-      //       return;
-      //   }
-
-      //   const cartItem = {
-      //       name: product.name,
-      //       price: product.price,
-      //       size: size,
-      //       quantity: quantity,
-      //       image: product.mainImage
-      //   };
-
-      //   const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
-        
-      //   // Check if item already exists in cart
-      //   const existingItemIndex = cartItems.findIndex(item => 
-      //       item.name === cartItem.name && item.size === cartItem.size
-      //   );
-
-      //   if (existingItemIndex > -1) {
-      //       cartItems[existingItemIndex].quantity += quantity;
-      //   } else {
-      //       cartItems.push(cartItem);
-      //   }
-
-      //   localStorage.setItem('cartItems', JSON.stringify(cartItems));
-      //   updateCartCounter(); // Add this line
-      //   // alert('Item added to cart!');
-      // });
 
       document.querySelector('.btn').addEventListener('click', function() {
         const product = JSON.parse(localStorage.getItem('selectedProduct'));

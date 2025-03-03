@@ -179,7 +179,52 @@ const products = {
         gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
         category: 'T-Shirts'
-    }
+    },
+    'p119': {
+        name: 'Leather Wallet',
+        price: 'R250.00',
+        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        mainImage: './image/product/p119.png',
+        gallery: ['./image/product/p120.png', './image/product/p122.png', './image/product/p121.png', './image/product/p118.png'],
+        rating: 4,
+        category: 'Accessories'
+    },
+    'p118': {
+        name: 'Leather Wallet',
+        price: 'R250.00',
+        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        mainImage: './image/product/p119.png',
+        gallery: ['./image/product/p120.png', './image/product/p122.png', './image/product/p121.png', './image/product/p119.png'],
+        rating: 4,
+        category: 'Accessories'
+    },
+    'p120': {
+        name: 'Leather Wallet',
+        price: 'R250.00',
+        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        mainImage: './image/product/p119.png',
+        gallery: ['./image/product/p119.png', './image/product/p122.png', './image/product/p121.png', './image/product/p118.png'],
+        rating: 4,
+        category: 'Accessories'
+    },
+    'p121': {
+        name: 'Leather Wallet',
+        price: 'R250.00',
+        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        mainImage: './image/product/p119.png',
+        gallery: ['./image/product/p120.png', './image/product/p122.png', './image/product/p119.png', './image/product/p118.png'],
+        rating: 4,
+        category: 'Accessories'
+    },
+    'p122': {
+        name: 'Leather Wallet',
+        price: 'R250.00',
+        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        mainImage: './image/product/p119.png',
+        gallery: ['./image/product/p120.png', './image/product/p119.png', './image/product/p121.png', './image/product/p118.png'],
+        rating: 4,
+        category: 'Accessories'
+    },
 };
 
 // Handle product clicks
