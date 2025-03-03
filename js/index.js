@@ -9,39 +9,13 @@ const products = {
         rating: 3,
         category: 'Caps'
     },
-    'p6': {
-        name: 'Sports Cap',
-        price: 'R120.00',
-        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
-        mainImage: './image/product/p6.png',
-        gallery: ['./image/product/p15.png', './image/product/p37.png', './image/product/p13.png', './image/product/p12.png'],
-        rating: 3,
-        category: 'Caps'
-    },
-    'p137': {
+    
+    'p37': {
         name: 'Sports Cap',
         price: 'R120.00',
         description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
         mainImage: './image/product/p37.png',
         gallery: ['./image/product/p6.png', './image/product/p15.png', './image/product/p13.png', './image/product/p12.png'],
-        rating: 3,
-        category: 'Caps'
-    },
-    'p13': {
-        name: 'Sports Cap',
-        price: 'R120.00',
-        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
-        mainImage: './image/product/p13.png',
-        gallery: ['./image/product/p6.png', './image/product/p37.png', './image/product/p15.png', './image/product/p12.png'],
-        rating: 3,
-        category: 'Caps'
-    },
-    'p12': {
-        name: 'Sports Cap',
-        price: 'R120.00',
-        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
-        mainImage: './image/product/p12.png',
-        gallery: ['./image/product/p6.png', './image/product/p37.png', './image/product/p15.png', './image/product/p13.png'],
         rating: 3,
         category: 'Caps'
     },
@@ -55,24 +29,7 @@ const products = {
         rating: 5,
         category: 'Scarves'
     },
-    'p8': {
-        name: 'Woolen Scarf',
-        price: 'R150.00',
-        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
-        mainImage: './image/product/p8.png',
-        gallery: ['./image/product/p16.png', './image/product/p17.png', './image/product/p18.png', './image/product/p38.png'],
-        rating: 5,
-        category: 'Scarves'
-    },
-    'p17': {
-        name: 'Woolen Scarf',
-        price: 'R150.00',
-        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
-        mainImage: './image/product/p17.png',
-        gallery: ['./image/product/p8.png', './image/product/p16.png', './image/product/p18.png', './image/product/p38.png'],
-        rating: 5,
-        category: 'Scarves'
-    },
+
     'p18': {
         name: 'Woolen Scarf',
         price: 'R150.00',
@@ -82,15 +39,7 @@ const products = {
         rating: 5,
         category: 'Scarves'
     },
-    'p38': {
-        name: 'Woolen Scarf',
-        price: 'R150.00',
-        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
-        mainImage: './image/product/p38.png',
-        gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p18.png', './image/product/p16.png'],
-        rating: 5,
-        category: 'Scarves'
-    },
+
     // ****************************************************************
     'p72': {
         name: 'Graphic Hoodie',
@@ -138,12 +87,57 @@ const products = {
         rating: 3,
         category: 'Hats'
     },
+    'p74': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p74.png',
+        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p77.png', './image/product/p73.png'],
+        rating: 3,
+        category: 'Hats'
+    },
+    'p4': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p4.png',
+        gallery: ['./image/product/p26.png', './image/product/p27.png', './image/product/p28.png', './image/product/p33.png'],
+        rating: 3,
+        category: 'Hats'
+    },
+    'p2': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p2.png',
+        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
+        rating: 3,
+        category: 'Hats'
+    },
+    'p33': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p33.png',
+        gallery: ['./image/product/p26.png', './image/product/p4.png', './image/product/p28.png', './image/product/p33.png'],
+        rating: 3,
+        category: 'Hats'
+    },
     'p82': {
         name: 'Casual Sneakers',
         price: 'R900.00',
         description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
         mainImage: './image/product/p82.png',
         gallery: ['./image/product/p81.png', './image/product/p80.png', './image/product/p79.png', './image/product/p78.png'],
+        rating: 5,
+        category: 'Shoes'
+    },
+    'p80': {
+        name: 'Casual Sneakers',
+        price: 'R900.00',
+        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        mainImage: './image/product/p80.png',
+        gallery: ['./image/product/p81.png', './image/product/p82.png', './image/product/p79.png', './image/product/p78.png'],
         rating: 5,
         category: 'Shoes'
     },
@@ -180,6 +174,15 @@ const products = {
         description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
         mainImage: './image/product/p1.png',
         gallery: ['./image/product/p44.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
+        rating: 4,
+        category: 'Hats'
+    },
+    'p44': {
+        name: 'Bucket Hat Classic',
+        price: 'R180.00',
+        description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
+        mainImage: './image/product/p44.png',
+        gallery: ['./image/product/p1.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
         rating: 4,
         category: 'Hats'
     },
@@ -228,6 +231,15 @@ const products = {
         rating: 5,
         category: 'Coats'
     },
+    'p103': {
+        name: 'Wool Coat',
+        price: 'R1000.00',
+        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        mainImage: './image/product/p103.png',
+        gallery: ['./image/product/p103.png', './image/product/p102.png', './image/product/p101.png', './image/product/p100.png'],
+        rating: 5,
+        category: 'Coats'
+    },
     'p110': {
         name: 'Running Shorts',
         price: 'R300.00',
@@ -251,7 +263,16 @@ const products = {
         price: 'R1100.00',
         description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
         mainImage: './image/product/p49.png',
-        gallery: ['./image/product/p50.png', './image/product/p51.png', './image/product/p54.png', './image/product/p48.png'],
+        gallery: ['./image/product/p59.png', './image/product/p51.png', './image/product/p54.png', './image/product/p48.png'],
+        rating: 5,
+        category: 'Bags'
+    },
+    'p52': {
+        name: 'Travel Backpack',
+        price: 'R1100.00',
+        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        mainImage: './image/product/p52.png',
+        gallery: ['./image/product/p49.png', './image/product/p53.png', './image/product/p50.png', './image/product/p52.png'],
         rating: 5,
         category: 'Bags'
     },
