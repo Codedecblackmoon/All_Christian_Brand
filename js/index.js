@@ -218,7 +218,16 @@ const products = {
         price: 'R550.00',
         description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
         mainImage: './image/product/p97.png',
-        gallery: ['./image/product/p96.png', './image/product/p95.png', './image/product/p94.png', './image/product/p93.png'],
+        gallery: ['./image/product/p96.png', './image/product/p97.png', './image/product/p94.png', './image/product/p93.png'],
+        rating: 5,
+        category: 'Dresses'
+    },
+    'p95': {
+        name: 'Summer Dress',
+        price: 'R550.00',
+        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
+        mainImage: './image/product/p97.png',
+        gallery: ['./image/product/p96.png', './image/product/p95.png', './image/product/p92.png', './image/product/p93.png'],
         rating: 5,
         category: 'Dresses'
     },
@@ -254,7 +263,16 @@ const products = {
         price: 'R800.00',
         description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
         mainImage: './image/product/p112.png',
-        gallery: ['./image/product/p113.png', './image/product/p114.png', './image/product/p115.png', './image/product/p116.png'],
+        gallery: ['./image/product/p113.png', './image/product/p112.png', './image/product/p115.png', './image/product/p116.png'],
+        rating: 4,
+        category: 'Bags'
+    },
+    'p117': {
+        name: 'Gym Bag',
+        price: 'R800.00',
+        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        mainImage: './image/product/p117.png',
+        gallery: ['./image/product/p112.png', './image/product/p113.png', './image/product/p114.png', './image/product/p117.png'],
         rating: 4,
         category: 'Bags'
     },
@@ -281,7 +299,16 @@ const products = {
         price: 'R350.00',
         description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
         mainImage: './image/product/p59.png',
-        gallery: ['./image/product/p56.png', './image/product/p57.png', './image/product/p58.png', './image/product/p60.png'],
+        gallery: ['./image/product/p56.png', './image/product/p57.png', './image/product/p59.png', './image/product/p60.png'],
+        rating: 4,
+        category: 'Hats'
+    },
+    'p58': {
+        name: 'Vintage Hat',
+        price: 'R350.00',
+        description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
+        mainImage: './image/product/p59.png',
+        gallery: ['./image/product/p55.png', './image/product/p56.png', './image/product/p58.png', './image/product/p61.png'],
         rating: 4,
         category: 'Hats'
     },
@@ -291,6 +318,15 @@ const products = {
         description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
         mainImage: './image/product/p64.png',
         gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
+        rating: 4,
+        category: 'T-Shirts'
+    },
+    'p62': {
+        name: 'Premium T-Shirt',
+        price: 'R180.00',
+        description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
+        mainImage: './image/product/p62.png',
+        gallery: ['./image/product/p62.png', './image/product/p64.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
         category: 'T-Shirts'
     },
