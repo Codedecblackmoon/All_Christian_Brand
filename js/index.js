@@ -9,6 +9,43 @@ const products = {
         rating: 3,
         category: 'Caps'
     },
+    'p6': {
+        name: 'Sports Cap',
+        price: 'R120.00',
+        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
+        mainImage: './image/product/p6.png',
+        gallery: ['./image/product/p15.png', './image/product/p37.png', './image/product/p13.png', './image/product/p12.png'],
+        rating: 3,
+        category: 'Caps'
+    },
+    'p137': {
+        name: 'Sports Cap',
+        price: 'R120.00',
+        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
+        mainImage: './image/product/p37.png',
+        gallery: ['./image/product/p6.png', './image/product/p15.png', './image/product/p13.png', './image/product/p12.png'],
+        rating: 3,
+        category: 'Caps'
+    },
+    'p13': {
+        name: 'Sports Cap',
+        price: 'R120.00',
+        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
+        mainImage: './image/product/p13.png',
+        gallery: ['./image/product/p6.png', './image/product/p37.png', './image/product/p15.png', './image/product/p12.png'],
+        rating: 3,
+        category: 'Caps'
+    },
+    'p12': {
+        name: 'Sports Cap',
+        price: 'R120.00',
+        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
+        mainImage: './image/product/p12.png',
+        gallery: ['./image/product/p6.png', './image/product/p37.png', './image/product/p15.png', './image/product/p13.png'],
+        rating: 3,
+        category: 'Caps'
+    },
+    // ***********************************************
     'p16': {
         name: 'Woolen Scarf',
         price: 'R150.00',
@@ -18,51 +55,43 @@ const products = {
         rating: 5,
         category: 'Scarves'
     },
-    'm3': {
-        name: 'Leather Belt',
-        price: 'R200.00',
-        description: 'Durable leather belt with a sleek buckle design, perfect for formal or casual attire.',
-        mainImage: './image/m3.png',
-        gallery: ['./image/m3.png', './image/m4.png', './image/m5.png', './image/m6.png'],
-        rating: 4,
-        category: 'Accessories'
-    },
-    'm4': {
-        name: 'Classic Sunglasses',
-        price: 'R250.00',
-        description: 'UV-protected classic sunglasses for sunny days. A must-have for your outdoor adventures.',
-        mainImage: './image/m4.png',
-        gallery: ['./image/m4.png', './image/m7.png', './image/m8.png', './image/m9.png'],
+    'p8': {
+        name: 'Woolen Scarf',
+        price: 'R150.00',
+        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
+        mainImage: './image/product/p8.png',
+        gallery: ['./image/product/p16.png', './image/product/p17.png', './image/product/p18.png', './image/product/p38.png'],
         rating: 5,
-        category: 'Sunglasses'
+        category: 'Scarves'
     },
-    'm5': {
-        name: 'Denim Jacket',
-        price: 'R500.00',
-        description: 'Stylish denim jacket designed for both comfort and durability. Perfect for layering.',
-        mainImage: './image/m5.png',
-        gallery: ['./image/m5.png', './image/m6.png', './image/m10.png', './image/m11.png'],
-        rating: 4,
-        category: 'Jackets'
-    },
-    'm6': {
-        name: 'Running Shoes',
-        price: 'R800.00',
-        description: 'High-performance running shoes for athletes and casual runners alike. Lightweight and comfortable.',
-        mainImage: './image/m6.png',
-        gallery: ['./image/m6.png', './image/m12.png', './image/m13.png', './image/m14.png'],
+    'p17': {
+        name: 'Woolen Scarf',
+        price: 'R150.00',
+        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
+        mainImage: './image/product/p17.png',
+        gallery: ['./image/product/p8.png', './image/product/p16.png', './image/product/p18.png', './image/product/p38.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Scarves'
     },
-    'm7': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/m7.png',
-        gallery: ['./image/m7.png', './image/m8.png', './image/m9.png', './image/m10.png'],
-        rating: 4,
-        category: 'Accessories'
+    'p18': {
+        name: 'Woolen Scarf',
+        price: 'R150.00',
+        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
+        mainImage: './image/product/p18.png',
+        gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p16.png', './image/product/p38.png'],
+        rating: 5,
+        category: 'Scarves'
     },
+    'p38': {
+        name: 'Woolen Scarf',
+        price: 'R150.00',
+        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
+        mainImage: './image/product/p38.png',
+        gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p18.png', './image/product/p16.png'],
+        rating: 5,
+        category: 'Scarves'
+    },
+    // ****************************************************************
     'p72': {
         name: 'Graphic Hoodie',
         price: 'R600.00',
@@ -72,6 +101,34 @@ const products = {
         rating: 4,
         category: 'Hoodies'
     },
+    'p71': {
+        name: 'Graphic Hoodie',
+        price: 'R600.00',
+        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        mainImage: './image/product/p71.png',
+        gallery: ['./image/product/p72.png', './image/product/p67.png', './image/product/p69.png', './image/product/p68.png'],
+        rating: 4,
+        category: 'Hoodies'
+    },
+    'p3': {
+        name: 'Graphic Hoodie',
+        price: 'R600.00',
+        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        mainImage: './image/product/p3.png',
+        gallery: ['./image/product/p29.png', './image/product/p30.png', './image/product/p31.png', './image/product/p32.png'],
+        rating: 4,
+        category: 'Hoodies'
+    },
+    'p30': {
+        name: 'Graphic Hoodie',
+        price: 'R600.00',
+        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        mainImage: './image/product/p30.png',
+        gallery: ['./image/product/p31.png', './image/product/p29.png', './image/product/p32.png', './image/product/p3.png'],
+        rating: 4,
+        category: 'Hoodies'
+    },
+    // **********************************************************************
     'p77': {
         name: 'Knitted Beanie',
         price: 'R100.00',
@@ -90,6 +147,33 @@ const products = {
         rating: 5,
         category: 'Shoes'
     },
+    'p25': {
+        name: 'Casual Sneakers',
+        price: 'R900.00',
+        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        mainImage: './image/product/p25.png',
+        gallery: ['./image/product/p5.png', './image/product/p23.png', './image/product/p24.png', './image/product/p35.png'],
+        rating: 5,
+        category: 'Shoes'
+    },
+    'p35': {
+        name: 'Casual Sneakers',
+        price: 'R900.00',
+        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        mainImage: './image/product/p35.png',
+        gallery: ['./image/product/p35.png', './image/product/p23.png', './image/product/p24.png', './image/product/p25.png'],
+        rating: 5,
+        category: 'Shoes'
+    },
+    'p70': {
+        name: 'Casual Sneakers',
+        price: 'R900.00',
+        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        mainImage: './image/product/p70.png',
+        gallery: ['./image/product/p69.png', './image/product/p67.png', './image/product/p72.png', './image/product/p71.png'],
+        rating: 5,
+        category: 'Shoes'
+    },
     'p1': {
         name: 'Bucket Hat Classic',
         price: 'R180.00',
@@ -105,6 +189,15 @@ const products = {
         description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
         mainImage: './image/product/p86.png',
         gallery: ['./image/product/p85.png', './image/product/p84.png', './image/product/p83.png', './image/product/p86.png'],
+        rating: 5,
+        category: 'Accessories'
+    },
+    'p84': {
+        name: 'Wrist Watch',
+        price: 'R1200.00',
+        description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
+        mainImage: './image/product/p84.png',
+        gallery: ['./image/product/p85.png', './image/product/p86.png', './image/product/p83.png', './image/product/p87.png'],
         rating: 5,
         category: 'Accessories'
     },
@@ -193,26 +286,8 @@ const products = {
         name: 'Leather Wallet',
         price: 'R250.00',
         description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p119.png',
+        mainImage: './image/product/p118.png',
         gallery: ['./image/product/p120.png', './image/product/p122.png', './image/product/p121.png', './image/product/p119.png'],
-        rating: 4,
-        category: 'Accessories'
-    },
-    'p120': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p119.png',
-        gallery: ['./image/product/p119.png', './image/product/p122.png', './image/product/p121.png', './image/product/p118.png'],
-        rating: 4,
-        category: 'Accessories'
-    },
-    'p121': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p119.png',
-        gallery: ['./image/product/p120.png', './image/product/p122.png', './image/product/p119.png', './image/product/p118.png'],
         rating: 4,
         category: 'Accessories'
     },
@@ -220,7 +295,7 @@ const products = {
         name: 'Leather Wallet',
         price: 'R250.00',
         description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p119.png',
+        mainImage: './image/product/p122.png',
         gallery: ['./image/product/p120.png', './image/product/p119.png', './image/product/p121.png', './image/product/p118.png'],
         rating: 4,
         category: 'Accessories'
