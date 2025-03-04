@@ -46,6 +46,15 @@ const products = {
         price: 'R600.00',
         description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
         mainImage: './image/product/p72.png',
+        gallery: ['./image/product/p71.png', './image/product/p70.png', './image/product/p72.png', './image/product/p68.png'],
+        rating: 4,
+        category: 'Hoodies'
+    },
+    'p69': {
+        name: 'Graphic Hoodie',
+        price: 'R600.00',
+        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        mainImage: './image/product/p69.png',
         gallery: ['./image/product/p71.png', './image/product/p67.png', './image/product/p69.png', './image/product/p68.png'],
         rating: 4,
         category: 'Hoodies'
@@ -83,7 +92,7 @@ const products = {
         price: 'R100.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p77.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
+        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p77.png', './image/product/p73.png'],
         rating: 3,
         category: 'Hats'
     },
@@ -92,7 +101,7 @@ const products = {
         price: 'R100.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p74.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p77.png', './image/product/p73.png'],
+        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
         rating: 3,
         category: 'Hats'
     },
