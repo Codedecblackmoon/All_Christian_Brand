@@ -328,6 +328,16 @@ hr{
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+#feature > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+    background-color: black;
+    border: none;
+}
+
+#feature > nav > ul > li.page-item.active > a{
+    background-color: black;
+    border: none;
+}
+
 footer{
     background-color: #1d1d1d;
 }
