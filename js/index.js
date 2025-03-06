@@ -73,7 +73,7 @@ const products = {
         price: 'R600.00',
         description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
         mainImage: './image/product/p3.png',
-        gallery: ['./image/product/p29.png', './image/product/p30.png', './image/product/p31.png', './image/product/p32.png'],
+        gallery: ['./image/product/p29.png', './image/product/p3.png', './image/product/p31.png', './image/product/p32.png'],
         rating: 4,
         category: 'Hoodies'
     },
@@ -82,7 +82,25 @@ const products = {
         price: 'R600.00',
         description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
         mainImage: './image/product/p30.png',
-        gallery: ['./image/product/p31.png', './image/product/p29.png', './image/product/p32.png', './image/product/p3.png'],
+        gallery: ['./image/product/p31.png', './image/product/p29.png', './image/product/p32.png', './image/product/p30.png'],
+        rating: 4,
+        category: 'Hoodies'
+    },
+    'p9': {
+        name: 'Graphic Hoodie',
+        price: 'R600.00',
+        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        mainImage: './image/product/p9.png',
+        gallery: ['./image/product/p9.png', './image/product/p7.png', './image/product/p10.png', './image/product/p11.png'],
+        rating: 4,
+        category: 'Hoodies'
+    },
+    'p34': {
+        name: 'Graphic Hoodie',
+        price: 'R600.00',
+        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        mainImage: './image/product/p9.png',
+        gallery: ['./image/product/p34.png', './image/product/p7.png', './image/product/p10.png', './image/product/p11.png'],
         rating: 4,
         category: 'Hoodies'
     },
@@ -114,12 +132,39 @@ const products = {
         rating: 3,
         category: 'Hats'
     },
+    'p19': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p19.png',
+        gallery: ['./image/product/p19.png', './image/product/p20.png', './image/product/p21.png', './image/product/p22.png'],
+        rating: 3,
+        category: 'Hats'
+    },
+    'p36': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p36.png',
+        gallery: ['./image/product/p36.png', './image/product/p20.png', './image/product/p21.png', './image/product/p22.png'],
+        rating: 3,
+        category: 'Hats'
+    },
     'p2': {
         name: 'Knitted Beanie',
         price: 'R100.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p2.png',
         gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
+        rating: 3,
+        category: 'Hats'
+    },
+    'p43': {
+        name: 'Knitted Beanie',
+        price: 'R100.00',
+        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        mainImage: './image/product/p43.png',
+        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p43.png'],
         rating: 3,
         category: 'Hats'
     },
@@ -244,7 +289,7 @@ const products = {
         name: 'Summer Dress',
         price: 'R550.00',
         description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
-        mainImage: './image/product/p97.png',
+        mainImage: './image/product/p95.png',
         gallery: ['./image/product/p96.png', './image/product/p95.png', './image/product/p92.png', './image/product/p93.png'],
         rating: 5,
         category: 'Dresses'
@@ -254,7 +299,7 @@ const products = {
         price: 'R1000.00',
         description: 'Luxurious wool coat for a sophisticated and warm winter look.',
         mainImage: './image/product/p104.png',
-        gallery: ['./image/product/p103.png', './image/product/p102.png', './image/product/p101.png', './image/product/p100.png'],
+        gallery: ['./image/product/p104.png', './image/product/p98.png', './image/product/p99.png', './image/product/p100.png'],
         rating: 5,
         category: 'Coats'
     },
