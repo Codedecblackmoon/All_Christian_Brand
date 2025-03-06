@@ -272,7 +272,16 @@ const products = {
         price: 'R300.00',
         description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
         mainImage: './image/product/p110.png',
-        gallery: ['./image/product/p109.png', './image/product/p108.png', './image/product/p107.png', './image/product/p106.png'],
+        gallery: ['./image/product/p110.png', './image/product/p108.png', './image/product/p107.png', './image/product/p106.png'],
+        rating: 4,
+        category: 'Activewear'
+    },
+    'p109': {
+        name: 'Running Shorts',
+        price: 'R300.00',
+        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        mainImage: './image/product/p109.png',
+        gallery: ['./image/product/p109.png', './image/product/p105.png', './image/product/p107.png', './image/product/p106.png'],
         rating: 4,
         category: 'Activewear'
     },
