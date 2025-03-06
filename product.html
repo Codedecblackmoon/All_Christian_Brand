@@ -279,8 +279,6 @@
         };
 
         const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
-        
-        // Check if item already exists in cart
         const existingItemIndex = cartItems.findIndex(item => 
             item.name === cartItem.name && item.size === cartItem.size
         );
@@ -294,7 +292,6 @@
         localStorage.setItem('cartItems', JSON.stringify(cartItems));
         updateCartCounter();
 
-        // Animation logic
         const originalText = addButton.textContent;
         addButton.style.transition = 'all 0.5s ease';
         addButton.textContent = 'Added!';
@@ -307,9 +304,6 @@
             addButton.style.transform = 'scale(1)';
         }, 2000);
     });
-
-        
-
     </script>
 </body>
 </html> 

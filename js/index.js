@@ -502,7 +502,7 @@ const products = {
     // p114
     // p115
     // p116
-    
+
     'p117': {
         name: 'Gym Bag',
         price: 'R800.00',
@@ -559,26 +559,21 @@ const products = {
     },
 };
 
-// Handle product clicks
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Add click handlers to all product containers
     const productElements = document.querySelectorAll('.product');
     productElements.forEach(product => {
         product.addEventListener('click', function(e) {
-            // Get product ID from image src
             const imgSrc = this.querySelector('img').src;
             const productId = imgSrc.split('/').pop().split('.')[0];
             
-            // Store selected product in localStorage
             if (products[productId]) {
                 localStorage.setItem('selectedProduct', JSON.stringify(products[productId]));
-                // Redirect to product page
                 window.location.href = 'product.html';
             }
         });
     });
 
-    // Check if we're on the product page
     if (window.location.pathname.includes('product.html')) {
         loadProductDetails();
     }
@@ -586,25 +581,19 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCartCounter();
 });
 
-// Load product details on the product page
 function loadProductDetails() {
     const selectedProduct = JSON.parse(localStorage.getItem('selectedProduct'));
     
     if (!selectedProduct) return;
 
-    // Update main product image
     const mainImg = document.getElementById('mainImg');
     if (mainImg) mainImg.src = selectedProduct.mainImage;
 
-    // Update product details
     document.querySelector('h3.py-4').textContent = selectedProduct.name;
     document.querySelector('h2').textContent = selectedProduct.price;
     document.querySelector('span').textContent = selectedProduct.description;
-
-    // Update breadcrumb
     document.querySelector('h6').textContent = `Home / ${selectedProduct.category}`;
 
-    // Update small images
     const smallImgs = document.querySelectorAll('.small-img');
     selectedProduct.gallery.forEach((img, index) => {
         if (smallImgs[index]) {
@@ -612,7 +601,6 @@ function loadProductDetails() {
         }
     });
 
-    // Update star rating
     const stars = document.querySelectorAll('.star i');
     stars.forEach((star, index) => {
         if (index < selectedProduct.rating) {
@@ -623,7 +611,6 @@ function loadProductDetails() {
     });
 }
 
-// Handle small image clicks on product page
 document.addEventListener('DOMContentLoaded', function() {
     const smallImages = document.querySelectorAll('.small-img');
     const mainImage = document.getElementById('mainImg');
@@ -641,16 +628,13 @@ function updateCartCounter() {
     const cartLink = document.querySelector('a[href="cart.html"] i');
     
     if (cartLink) {
-        // Remove any existing counter
         const existingCounter = cartLink.parentNode.querySelector('.cart-counter');
         if (existingCounter) {
             existingCounter.remove();
         }
 
-        // Calculate total number of items
         const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0);
         
-        // Create and add counter if there are items
         if (totalItems > 0) {
             const counterSpan = document.createElement('span');
             counterSpan.className = 'cart-counter badge badge-danger';
@@ -668,15 +652,12 @@ function updateCartCounter() {
                 text-align: center;
             `;
             counterSpan.textContent = totalItems;
-
-            // Ensure parent has relative positioning
             cartLink.parentNode.style.position = 'relative';
             cartLink.parentNode.appendChild(counterSpan);
         }
     }
 }
 
-// Add to cart function with counter update
 function addToCart(product, size, quantity) {
     const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
     
@@ -688,7 +669,6 @@ function addToCart(product, size, quantity) {
         image: product.mainImage
     };
 
-    // Check if item already exists in cart
     const existingItemIndex = cartItems.findIndex(item => 
         item.name === cartItem.name && item.size === cartItem.size
     );
@@ -701,5 +681,4 @@ function addToCart(product, size, quantity) {
 
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
     updateCartCounter();
-    // alert('Item added to cart!');
 }
