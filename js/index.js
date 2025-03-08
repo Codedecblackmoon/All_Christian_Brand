@@ -5,7 +5,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ central role in the universe.',
         mainImage: './image/product/p1.png',
-        gallery: ['./image/product/p1.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
+        gallery: [],
         rating: 4,
         category: 'Hoodies'
     },
