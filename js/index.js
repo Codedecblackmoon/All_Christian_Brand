@@ -9,15 +9,6 @@ const products = {
         rating: 4,
         category: 'Hoodies'
     },
-    'p2': {
-        name: '"Heaven Gate" Black Hoodie',
-        price: 'R450.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p2.png',
-        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
-        rating: 3,
-        category: 'Hoodies'
-    },
     'p3': {
         name: '"HE DEFEATED DEATH" Black Hoodie',
         price: 'R450.00',
@@ -45,102 +36,12 @@ const products = {
         rating: 3,
         category: 'Hoodies'
     },
-    'p6': {
-        name: '"ADONAI" Black Hoodie',
-        price: 'R450.00',
-        description: 'Declare your devotion to the Almighty with this powerful design. "Adonai" is a Hebrew title for God, emphasizing His sovereignty and eternal nature.',
-        mainImage: './image/product/p6.png',
-        gallery: ['./image/product/p6.png', './image/product/p12.png', './image/product/p13.png', './image/product/p15.png'],
-        rating: 3,
-        category: 'Hoodies'
-    },
-    'p7': {
-        name: 'Knitted Beanie',
-        price: 'R450.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p7.png',
-        gallery: ['./image/product/p7.png', './image/product/p9.png', './image/product/p10.png', './image/product/p11.png'],
-        rating: 3,
-        category: 'Hats'
-    },
     'p8': {
         name: 'Knitted Beanie',
         price: 'R100.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p8.png',
         gallery: ['./image/product/p8.png', './image/product/p16.png', './image/product/p17.png', './image/product/p18.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p9': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
-        mainImage: './image/product/p9.png',
-        gallery: ['./image/product/p9.png', './image/product/p7.png', './image/product/p10.png', './image/product/p11.png'],
-        rating: 4,
-        category: 'Hoodies'
-    },
-    'p10': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p10.png',
-        gallery: ['./image/product/p10.png', './image/product/p7.png', './image/product/p9.png', './image/product/p11.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p11': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p11.png',
-        gallery: ['./image/product/p11.png', './image/product/p9.png', './image/product/p7.png', './image/product/p10.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p12': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p12.png',
-        gallery: ['./image/product/p12.png', './image/product/p6.png', './image/product/p13.png', './image/product/p15.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p13': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p13.png',
-        gallery: ['./image/product/p13.png', './image/product/p12.png', './image/product/p15.png', './image/product/p6.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p15': {
-        name: 'Sports Cap',
-        price: 'R120.00',
-        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
-        mainImage: './image/product/p15.png',
-        gallery: ['./image/product/p6.png', './image/product/p15.png', './image/product/p13.png', './image/product/p12.png'],
-        rating: 3,
-        category: 'Caps'
-    },
-    'p16': {
-        name: 'Woolen Scarf',
-        price: 'R150.00',
-        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
-        mainImage: './image/product/p16.png',
-        gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p16.png', './image/product/p38.png'],
-        rating: 5,
-        category: 'Scarves'
-    },
-    'p17': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p17.png',
-        gallery: ['./image/product/p17.png', './image/product/p8.png', './image/product/p13.png', './image/product/p8.png'],
         rating: 3,
         category: 'Hats'
     },
@@ -168,15 +69,6 @@ const products = {
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p20.png',
         gallery: ['./image/product/p20.png', './image/product/p19.png', './image/product/p21.png', './image/product/p22.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p21': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p21.png',
-        gallery: ['./image/product/p21.png', './image/product/p22.png', './image/product/p20.png', './image/product/p19.png'],
         rating: 3,
         category: 'Hats'
     },
@@ -290,15 +182,6 @@ const products = {
         rating: 3,
         category: 'Hats'
     },
-    'p34': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
-        mainImage: './image/product/p9.png',
-        gallery: ['./image/product/p34.png', './image/product/p7.png', './image/product/p10.png', './image/product/p11.png'],
-        rating: 4,
-        category: 'Hoodies'
-    },
     'p35': {
         name: 'Casual Sneakers',
         price: 'R900.00',
@@ -317,24 +200,6 @@ const products = {
         rating: 3,
         category: 'Hats'
     },
-    'p37': {
-        name: 'Sports Cap',
-        price: 'R120.00',
-        description: 'Lightweight and breathable sports cap for all outdoor activities. Adjustable strap for a perfect fit.',
-        mainImage: './image/product/p37.png',
-        gallery: ['./image/product/p6.png', './image/product/p37.png', './image/product/p13.png', './image/product/p12.png'],
-        rating: 3,
-        category: 'Caps'
-    },
-    'p38': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
-        mainImage: './image/product/p38.png',
-        gallery: ['./image/product/p38.png', './image/product/p16.png', './image/product/p17.png', './image/product/p18.png'],
-        rating: 5,
-        category: 'Shoes'
-    },
     'p39': {
         name: 'Casual Sneakers',
         price: 'R900.00',
@@ -344,42 +209,6 @@ const products = {
         rating: 5,
         category: 'Shoes'
     },  
-    'p40': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p40.png',
-        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p41': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p41.png',
-        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p42': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p42.png',
-        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
-        rating: 3,
-        category: 'Hats'
-    },
-    'p43': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p43.png',
-        gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p43.png'],
-        rating: 3,
-        category: 'Hats'
-    },
     'p44': {
         name: 'Bucket Hat Classic',
         price: 'R180.00',
@@ -462,24 +291,6 @@ const products = {
         rating: 5,
         category: 'Bags'
     },
-    'p53': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',    
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',    
-        mainImage: './image/product/p53.png',
-        gallery: ['./image/product/p49.png', './image/product/p53.png', './image/product/p50.png', './image/product/p52.png'],
-        rating: 4,
-        category: 'Bags'
-    },
-    'p54': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
-        mainImage: './image/product/p54.png',
-        gallery: ['./image/product/p49.png', './image/product/p53.png', './image/product/p50.png', './image/product/p52.png'],
-        rating: 4,
-        category: 'Bags'
-    },
     'p55': {
         name: 'Travel Backpack',
         price: 'R1100.00',
@@ -513,15 +324,6 @@ const products = {
         description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
         mainImage: './image/product/p59.png',
         gallery: ['./image/product/p55.png', './image/product/p56.png', './image/product/p58.png', './image/product/p61.png'],
-        rating: 4,
-        category: 'Hats'
-    },
-    'p59': {
-        name: 'Vintage Hat',
-        price: 'R350.00',
-        description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
-        mainImage: './image/product/p59.png',
-        gallery: ['./image/product/p56.png', './image/product/p57.png', './image/product/p59.png', './image/product/p60.png'],
         rating: 4,
         category: 'Hats'
     },
@@ -588,230 +390,104 @@ const products = {
         rating: 4,
         category: 'T-Shirts'
     },
-    'p67': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
-        mainImage: './image/product/p67.png',
-        gallery: ['./image/product/p67.png', './image/product/p68.png', './image/product/p69.png', './image/product/p70.png'],
-        rating: 4,
-        category: 'Shoes'
-    },
-    'p68': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
-        mainImage: './image/product/p68.png',
-        gallery: ['./image/product/p67.png', './image/product/p68.png', './image/product/p69.png', './image/product/p70.png'],
-        rating: 4,
-        category: 'Shoes'
-    },
-    'p69': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
-        mainImage: './image/product/p69.png',
-        gallery: ['./image/product/p71.png', './image/product/p67.png', './image/product/p69.png', './image/product/p68.png'],
-        rating: 4,
-        category: 'Hoodies'
-    },
-    'p70': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
-        mainImage: './image/product/p70.png',
-        gallery: ['./image/product/p69.png', './image/product/p67.png', './image/product/p72.png', './image/product/p71.png'],
-        rating: 5,
-        category: 'Shoes'
-    },
-    'p71': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
-        mainImage: './image/product/p71.png',
-        gallery: ['./image/product/p72.png', './image/product/p67.png', './image/product/p69.png', './image/product/p68.png'],
-        rating: 4,
-        category: 'Hoodies'
-    },
-    'p72': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
-        mainImage: './image/product/p72.png',
-        gallery: ['./image/product/p71.png', './image/product/p70.png', './image/product/p72.png', './image/product/p68.png'],
-        rating: 4,
-        category: 'Hoodies'
-    },
-    'p73': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p73.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
-        rating: 4,
-        category: 'Hats'
-    },
-    'p74': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p74.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
-        rating: 4,
-        category: 'Hats'
-    },
-    'p75': {
-        name: 'Knitted Beanie', 
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p75.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
-        rating: 4,
-        category: 'Hats'
-    },
-    'p76': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
-        mainImage: './image/product/p76.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p74.png', './image/product/p73.png'],
-        rating: 4,
-        category: 'Hats'
-    },
     'p77': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"EXODUS 12:13" Red T-Shirt',
+        price: 'R250.00',
+        description: 'A striking, modern font with the powerful scripture Exodus 12:13: "Theblood will be a sign for you on the houses where you are, and when I see the blood, I will pass over you.",a stylized, graphic representation ofthe blood of the lamb, symbolizingredemption and salvation and a bold, red hoodie that represents theblood of the lamb and makes a statement',
         mainImage: './image/product/p77.png',
-        gallery: ['./image/product/p76.png', './image/product/p75.png', './image/product/p77.png', './image/product/p73.png'],
+        gallery: [],
         rating: 4,
-        category: 'Hats'
+        category: 'T-Shirts'
     },
     'p78': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"LIFE OF CHRIST" Green T-Shirt',
+        price: 'R250.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose',
         mainImage: './image/product/p78.png',
         gallery: ['./image/product/p78.png', './image/product/p82.png', './image/product/p79.png', './image/product/p80.png'],
         rating: 4,
-        category: 'Shoes'
+        category: 'T-Shirts'
     },
     'p79': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"LIFE OF CHRIST" Blue T-Shirt',
+        price: 'R250.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose',
         mainImage: './image/product/p79.png',
         gallery: ['./image/product/p79.png', './image/product/p82.png', './image/product/p78.png', './image/product/p80.png'],
         rating: 4,
-        category: 'Shoes'
+        category: 'T-Shirts'
     },
     'p80': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"LIFE OF CHRIST" Pink T-Shirt',
+        price: 'R250.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose',
         mainImage: './image/product/p80.png',
         gallery: ['./image/product/p80.png', './image/product/p82.png', './image/product/p79.png', './image/product/p78.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'T-Shirts'
     },
     'p81': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"LIFE OF CHRIST" Black T-Shirt',
+        price: 'R250.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose',
         mainImage: './image/product/p81.png',
         gallery: ['./image/product/p81.png', './image/product/p82.png', './image/product/p79.png', './image/product/p78.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'T-Shirts'
     },
     'p82': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"LIFE OF CHRIST" White T-Shirt',
+        price: 'R250.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose',
         mainImage: './image/product/p82.png',
         gallery: ['./image/product/p81.png', './image/product/p82.png', './image/product/p79.png', './image/product/p78.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'T-Shirts'
     },
     'p83': {
-        name: 'Wrist Watch',
-        price: 'R1200.00',
-        description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
+        name: '"JESUS SAVES LIVES" Blue T-Shirt',
+        price: 'R250.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p83.png',
         gallery: ['./image/product/p85.png', './image/product/p86.png', './image/product/p83.png', './image/product/p84.png'],
         rating: 5,
-        category: 'Accessories'
+        category: 'T-Shirts'
     },
     'p84': {
-        name: 'Wrist Watch',
-        price: 'R1200.00',
-        description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
+        name: '"JESUS SAVES LIVES" Green T-Shirt',
+        price: 'R250.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p84.png',
         gallery: ['./image/product/p85.png', './image/product/p86.png', './image/product/p83.png', './image/product/p84.png'],
         rating: 5,
-        category: 'Accessories'
+        category: 'T-Shirts'
     },
     'p85': {
-        name: 'Wrist Watch',
-        price: 'R1200.00',        
-        description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
+        name: '"JESUS SAVES LIVES" Pink T-Shirt',
+        price: 'R250.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p85.png',
         gallery: ['./image/product/p85.png', './image/product/p86.png', './image/product/p83.png', './image/product/p84.png'],
         rating: 5,
-        category: 'Accessories'
+        category: 'T-Shirts'
     },
     'p86': {
-        name: 'Wrist Watch',
-        price: 'R1200.00',
-        description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
+        name: '"JESUS SAVES LIVES" Beige T-Shirt',
+        price: 'R250.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p86.png',
         gallery: ['./image/product/p85.png', './image/product/p86.png', './image/product/p83.png', './image/product/p84.png'],
         rating: 5,
-        category: 'Accessories'
+        category: 'T-Shirts'
     },
     'p87': {
-        name: 'Wrist Watch',
-        price: 'R1200.00',
-        description: 'Elegant wristwatch with a sleek design. Ideal for formal and casual events.',
+        name: '"JESUS SAVES LIVES" Black T-Shirt',
+        price: 'R250.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p87.png',
         gallery: ['./image/product/p85.png', './image/product/p87.png', './image/product/p83.png', './image/product/p86.png'],
         rating: 5,
-        category: 'Accessories'
-    },
-    'p88': {
-        name: 'Formal Shirt',
-        price: 'R400.00',
-        description: 'Crisp formal shirt made with high-quality fabric. Ideal for office wear.',
-        mainImage: './image/product/p88.png',
-        gallery: ['./image/product/p88.png', './image/product/p89.png', './image/product/p90.png', './image/product/p91.png'],
-        rating: 4,
-        category: 'Shirts'
-    },
-    'p89': {
-        name: 'Formal Shirt',
-        price: 'R400.00',
-        description: 'Crisp formal shirt made with high-quality fabric. Ideal for office wear.',
-        mainImage: './image/product/p89.png',
-        gallery: ['./image/product/p88.png', './image/product/p89.png', './image/product/p90.png', './image/product/p91.png'],
-        rating: 4,
-        category: 'Shirts'
-    },  
-    'p90': {
-        name: 'Formal Shirt',
-        price: 'R400.00',
-        description: 'Crisp formal shirt made with high-quality fabric. Ideal for office wear.',
-        mainImage: './image/product/p90.png',
-        gallery: ['./image/product/p88.png', './image/product/p89.png', './image/product/p90.png', './image/product/p91.png'],
-        rating: 4,
-        category: 'Shirts'
-    },
-    'p91': {
-        name: 'Formal Shirt',
-        price: 'R400.00',
-        description: 'Crisp formal shirt made with high-quality fabric. Ideal for office wear.',
-        mainImage: './image/product/p91.png',
-        gallery: ['./image/product/p90.png', './image/product/p89.png', './image/product/p88.png', './image/product/p91.png'],
-        rating: 4,
-        category: 'Shirts'
+        category: 'T-Shirts'
     },
     'p92': {
         name: 'Summer Dress',
@@ -868,121 +544,121 @@ const products = {
         category: 'Dresses'
     },
     'p98': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" Green T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p98.png',
         gallery: ['./image/product/p104.png', './image/product/p98.png', './image/product/p99.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },
     'p99': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" Black T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p99.png',
         gallery: ['./image/product/p104.png', './image/product/p98.png', './image/product/p99.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },  
     'p100': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" Red T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p100.png',
         gallery: ['./image/product/p104.png', './image/product/p98.png', './image/product/p99.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },
     'p101': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" Blue T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p101.png',
         gallery: ['./image/product/p103.png', './image/product/p102.png', './image/product/p101.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },
     'p102': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" Gray T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p102.png',
         gallery: ['./image/product/p103.png', './image/product/p102.png', './image/product/p101.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },
     'p103': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" White T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p103.png',
         gallery: ['./image/product/p103.png', './image/product/p102.png', './image/product/p101.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },
     'p104': {
-        name: 'Wool Coat',
-        price: 'R1000.00',
-        description: 'Luxurious wool coat for a sophisticated and warm winter look.',
+        name: '"HE DEFEATED DEATH" Pink T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave',
         mainImage: './image/product/p104.png',
         gallery: ['./image/product/p104.png', './image/product/p98.png', './image/product/p99.png', './image/product/p100.png'],
         rating: 5,
-        category: 'Coats'
+        category: 'T-Shirts'
     },
     'p105': {
-        name: 'Running Shorts',
-        price: 'R300.00',
-        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        name: '"CHRIST THE SON" Green T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p105.png',
         gallery: ['./image/product/p105.png', './image/product/p106.png', './image/product/p107.png', './image/product/p108.png'],
         rating: 4,
-        category: 'Activewear'
+        category: 'T-Shirts'
     },
     'p106': {
-        name: 'Running Shorts',
-        price: 'R300.00',
-        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        name: '"CHRIST THE SON" Gray T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p106.png',
         gallery: ['./image/product/p106.png', './image/product/p107.png', './image/product/p108.png', './image/product/p109.png'],
         rating: 4,
-        category: 'Activewear'
+        category: 'T-Shirts'
     },
     'p107': {
-        name: 'Running Shorts',
-        price: 'R300.00',
-        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        name: '"CHRIST THE SON" Black T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p107.png',
         gallery: ['./image/product/p107.png', './image/product/p108.png', './image/product/p109.png', './image/product/p106.png'],
         rating: 4,
-        category: 'Activewear'
+        category: 'T-Shirts'
     },
     'p108': {
-        name: 'Running Shorts',
-        price: 'R300.00',
-        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        name: '"CHRIST THE SON" Blue T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p108.png',
         gallery: ['./image/product/p108.png', './image/product/p109.png', './image/product/p110.png', './image/product/p106.png'],
         rating: 4,
-        category: 'Activewear'
+        category: 'T-Shirts'
     },
     'p109': {
-        name: 'Running Shorts',
-        price: 'R300.00',
-        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        name: '"CHRIST THE SON" Red T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p109.png',
         gallery: ['./image/product/p109.png', './image/product/p105.png', './image/product/p107.png', './image/product/p106.png'],
         rating: 4,
-        category: 'Activewear'
+        category: 'T-Shirts'
     },
     'p110': {
-        name: 'Running Shorts',
-        price: 'R300.00',
-        description: 'Breathable running shorts for active lifestyles. Comfortable fit and modern design.',
+        name: '"CHRIST THE SON" White T-Shirt',
+        price: 'R250.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p110.png',
         gallery: ['./image/product/p110.png', './image/product/p108.png', './image/product/p107.png', './image/product/p106.png'],
         rating: 4,
-        category: 'Activewear'
+        category: 'T-Shirts'
     },
     'p111': {
         name: 'Gym Bag',
@@ -1048,47 +724,20 @@ const products = {
         category: 'Bags'
     },
     'p118': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        name: 'Light Beige Tote Bag',
+        price: 'R150.00',
+        description: 'Declare your faith and devotion with this beautiful tote bag design, a pure white lamb, representing innocence, purity, and the sacrifice of Christ and a subtle, elegant font with the words "Jesus Christ" reflecting the scripture John 1:29',
         mainImage: './image/product/p118.png',
-        gallery: ['./image/product/p118.png', './image/product/p122.png', './image/product/p121.png', './image/product/p119.png'],
+        gallery: [],
         rating: 4,
         category: 'Accessories'
     },
     'p119': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
+        name: 'Black Tote Bag',
+        price: 'R150.00',
+        description: 'Declare your faith and devotion with this beautiful tote bag design, a pure white lamb, representing innocence, purity, and the sacrifice of Christ and a subtle, elegant font with the words "Jesus Christ" reflecting the scripture John 1:29',
         mainImage: './image/product/p119.png',
-        gallery: ['./image/product/p119.png', './image/product/p122.png', './image/product/p121.png', './image/product/p118.png'],
-        rating: 4,
-        category: 'Accessories'
-    },
-    'p120': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p119.png',
-        gallery: ['./image/product/p120.png', './image/product/p122.png', './image/product/p121.png', './image/product/p118.png'],
-        rating: 4,
-        category: 'Accessories'
-    },
-    'p121': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p118.png',
-        gallery: ['./image/product/p118.png', './image/product/p122.png', './image/product/p121.png', './image/product/p119.png'],
-        rating: 4,
-        category: 'Accessories'
-    },
-    'p122': {
-        name: 'Leather Wallet',
-        price: 'R250.00',
-        description: 'Premium leather wallet with multiple compartments for cards, cash, and coins.',
-        mainImage: './image/product/p122.png',
-        gallery: ['./image/product/p120.png', './image/product/p119.png', './image/product/p121.png', './image/product/p118.png'],
+        gallery: [],
         rating: 4,
         category: 'Accessories'
     },
