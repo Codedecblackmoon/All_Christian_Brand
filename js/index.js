@@ -1,62 +1,62 @@
 
 const products = {
     'p1': {
-        name: 'Bucket Hat Classic',
-        price: 'R180.00',
-        description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
+        name: '"CHRIST THE SON" Black Hoodie',
+        price: 'R450.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ central role in the universe.',
         mainImage: './image/product/p1.png',
         gallery: ['./image/product/p1.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p2': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
+        name: '"Heaven Gate" Black Hoodie',
+        price: 'R450.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p2.png',
         gallery: ['./image/product/p40.png', './image/product/p41.png', './image/product/p42.png', './image/product/p2.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p3': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        name: '"HE DEFEATED DEATH" Black Hoodie',
+        price: 'R450.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave.',
         mainImage: './image/product/p3.png',
         gallery: ['./image/product/p29.png', './image/product/p3.png', './image/product/p31.png', './image/product/p32.png'],
         rating: 4,
         category: 'Hoodies'
     },
     'p4': {
-        name: 'Knitted Beanie',
+        name: '"JESUS LOVES YOU" Black Hoodie',
         price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        description: 'Share the universal message of God\'s sunconditional love with this heartwarming design."Jesus Loves You" is gently written in a beautiful,cursive font, reminding everyone of the infinite loveand compassion of our Savior.',
         mainImage: './image/product/p4.png',
         gallery: ['./image/product/p26.png', './image/product/p27.png', './image/product/p28.png', './image/product/p33.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p5': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"JESUS SAVES LIVES" Black Hoodie',
+        price: 'R450.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p5.png',
         gallery: ['./image/product/p5.png', './image/product/p29.png', './image/product/p35.png', './image/product/p39.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p6': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"ADONAI" Black Hoodie',
+        price: 'R450.00',
+        description: 'Declare your devotion to the Almighty with this powerful design. "Adonai" is a Hebrew title for God, emphasizing His sovereignty and eternal nature.',
         mainImage: './image/product/p6.png',
         gallery: ['./image/product/p6.png', './image/product/p12.png', './image/product/p13.png', './image/product/p15.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p7': {
         name: 'Knitted Beanie',
-        price: 'R100.00',
+        price: 'R450.00',
         description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
         mainImage: './image/product/p7.png',
         gallery: ['./image/product/p7.png', './image/product/p9.png', './image/product/p10.png', './image/product/p11.png'],
@@ -1156,6 +1156,32 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// document.addEventListener('DOMContentLoaded', function() {
+//     const smallImages = document.querySelectorAll('.small-img');
+//     const mainImage = document.getElementById('mainImg');
+
+//     smallImages.forEach(img => {
+//         img.addEventListener('click', function() {
+//             mainImage.src = this.src;
+            
+//             // Find the product ID from the clicked image
+//             const imgPath = this.src;
+//             const imgFilename = imgPath.split('/').pop();
+            
+//             // Find the product that contains this image in its gallery
+//             for (const productId in products) {
+//                 const product = products[productId];
+//                 if (product.gallery.some(galleryImg => galleryImg.includes(imgFilename))) {
+//                     // Update the selected product in localStorage
+//                     localStorage.setItem('selectedProduct', JSON.stringify(product));
+//                     // Update the product details on the page
+//                     loadProductDetails();
+//                     break;
+//                 }
+//             }
+//         });
+//     });
+// });
 
 
 function updateCartCounter() {
