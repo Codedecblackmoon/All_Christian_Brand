@@ -37,18 +37,18 @@ const products = {
         category: 'Hoodies'
     },
     'p8': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"JESUS CHRIST" Black Hoodie',
+        price: 'R450.00',
+        description: 'Declare the unstoppable power and authority of Jesus Christ with this bold design. The name "Jesus Christ" is emblazoned in a fiery red font, tearing through the darkness, symbolizing the transformative impact:of faith.',
         mainImage: './image/product/p8.png',
         gallery: ['./image/product/p8.png', './image/product/p16.png', './image/product/p17.png', './image/product/p18.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p18': {
-        name: '',
+        name: '"JESUS CHRIST" White Hoodie',
         price: 'R450.00',
-        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
+        description: 'Declare the unstoppable power and authority of Jesus Christ with this bold design. The name "Jesus Christ" is emblazoned in a fiery red font, tearing through the darkness, symbolizing the transformative impact:of faith.',
         mainImage: './image/product/p18.png',
         gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p18.png', './image/product/p38.png'],
         rating: 5,
@@ -109,78 +109,78 @@ const products = {
         category: 'Hoodies'
     },
     'p26': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"JESUS LOVES YOU" Pink Hoodie',
+        price: 'R450.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p26.png',
         gallery: ['./image/product/p26.png', './image/product/p27.png', './image/product/p28.png', './image/product/p33.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },
 
     'p27': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"JESUS LOVES YOU" Green Hoodie',
+        price: 'R450.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p27.png',
         gallery: ['./image/product/p27.png', './image/product/p26.png', './image/product/p28.png', './image/product/p33.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },
 
     'p28': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"JESUS LOVES YOU" Gray Hoodie',
+        price: 'R450.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p28.png',
         gallery: ['./image/product/p28.png', './image/product/p27.png', './image/product/p33.png', './image/product/p26.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },
     'p29': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"HE DEFEATED DEATH" White Hoodie',
+        price: 'R450.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave.',
         mainImage: './image/product/p29.png',
         gallery: ['./image/product/p29.png', './image/product/p30.png', './image/product/p31.png', './image/product/p32.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },
     'p30': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        name: '"HE DEFEATED DEATH" Green Hoodie',
+        price: 'R450.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave.',
         mainImage: './image/product/p30.png',
         gallery: ['./image/product/p31.png', './image/product/p29.png', './image/product/p32.png', './image/product/p30.png'],
         rating: 4,
         category: 'Hoodies'
     },
     'p31': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        name: '"HE DEFEATED DEATH" Brown Hoodie',
+        price: 'R450.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave.',
         mainImage: './image/product/p31.png',
         gallery: ['./image/product/p31.png', './image/product/p29.png', './image/product/p32.png', './image/product/p30.png'],
         rating: 4,
         category: 'Hoodies'
     },
     'p32': {
-        name: 'Graphic Hoodie',
-        price: 'R600.00',
-        description: 'Comfortable hoodie with eye-catching graphic prints. Perfect for casual outings.',
+        name: '"HE DEFEATED DEATH" Gray Hoodie',
+        price: 'R450.00',
+        description: 'Declare the ultimate victory of Jesus Christ with this powerful design. "Jesus Christ, He Defeated Death" boldly proclaims the triumph of our Savior over the grave.',
         mainImage: './image/product/p32.png',
         gallery: ['./image/product/p32.png', './image/product/p31.png', './image/product/p29.png', './image/product/p30.png'],
         rating: 4,
         category: 'Hoodies'
     },
     'p33': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"JESUS LOVES YOU" Blue Hoodie',
+        price: 'R450.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p33.png',
         gallery: ['./image/product/p26.png', './image/product/p4.png', './image/product/p28.png', './image/product/p33.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p35': {
         name: '"JESUS SAVES LIVES" Brown Hoddie',
@@ -201,50 +201,50 @@ const products = {
         category: 'Hoodies'
     },
     'p39': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"JESUS SAVES LIVES" Green Hoddie',
+        price: 'R450.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p39.png',
         gallery: ['./image/product/p39.png', './image/product/p35.png', './image/product/p23.png', './image/product/p24.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },  
     'p44': {
-        name: 'Bucket Hat Classic',
-        price: 'R180.00',
-        description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
+        name: '"CHRIST THE SON" White Hoodie',
+        price: 'R450.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p44.png',
         gallery: ['./image/product/p44.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p45': {
-        name: 'Bucket Hat Classic',
-        price: 'R180.00',
-        description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
+        name: '"CHRIST THE SON" Gray Hoodie',
+        price: 'R450.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p45.png',
         gallery: ['./image/product/p1.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     
     'p46': {
-        name: 'Bucket Hat Classic',
-        price: 'R180.00',
-        description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
+        name: '"CHRIST THE SON" Blue Hoodie',
+        price: 'R450.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p46.png',
         gallery: ['./image/product/p1.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p47': {
-        name: 'Bucket Hat Classic',
-        price: 'R180.00',
-        description: 'Classic bucket hat design perfect for casual wear. Made with premium materials for lasting comfort and style.',
+        name: '"CHRIST THE SON" Green Hoodie',
+        price: 'R450.00',
+        description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage: './image/product/p47.png',
         gallery: ['./image/product/p1.png', './image/product/p45.png', './image/product/p46.png', './image/product/p47.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p48': {
         name: 'Blue Snapback cap',
