@@ -5,7 +5,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ central role in the universe.',
         mainImage: './image/product/p1.png',
-        gallery: [],
+        gallery: ['./image/product/p1.png', './image/product/p44.png', './image/product/p45.png', './image/product/p46.png',],
         rating: 4,
         category: 'Hoodies'
     },
@@ -41,7 +41,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the unstoppable power and authority of Jesus Christ with this bold design. The name "Jesus Christ" is emblazoned in a fiery red font, tearing through the darkness, symbolizing the transformative impact:of faith.',
         mainImage: './image/product/p8.png',
-        gallery: ['./image/product/p8.png', './image/product/p16.png', './image/product/p17.png', './image/product/p18.png'],
+        gallery: [],
         rating: 3,
         category: 'Hoodies'
     },
@@ -50,7 +50,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the unstoppable power and authority of Jesus Christ with this bold design. The name "Jesus Christ" is emblazoned in a fiery red font, tearing through the darkness, symbolizing the transformative impact:of faith.',
         mainImage: './image/product/p18.png',
-        gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p18.png', './image/product/p38.png'],
+        gallery: [],
         rating: 5,
         category: 'Hoodies'
     },
@@ -59,7 +59,7 @@ const products = {
         price: 'R450.00',
         description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
         mainImage: './image/product/p19.png',
-        gallery: ['./image/product/p19.png', './image/product/p20.png', './image/product/p21.png', './image/product/p22.png'],
+        gallery: ['./image/product/p19.png', './image/product/p20.png', './image/product/p36.png', './image/product/p22.png'],
         rating: 3,
         category: 'Hoodies'
     },
@@ -260,7 +260,7 @@ const products = {
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p49.png',
-        gallery: ['./image/product/p59.png', './image/product/p51.png', './image/product/p54.png', './image/product/p48.png'],
+        gallery: ['./image/product/p49.png', './image/product/p51.png', './image/product/p52.png', './image/product/p48.png'],
         rating: 4,
         category: 'Accessories'
     },
@@ -322,7 +322,7 @@ const products = {
         name: 'Pink Tracker\'s cap',
         price: 'R150.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
-        mainImage: './image/product/p59.png',
+        mainImage: './image/product/p58.png',
         gallery: ['./image/product/p55.png', './image/product/p56.png', './image/product/p58.png', './image/product/p61.png'],
         rating: 4,
         category: 'Accessories'
