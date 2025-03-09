@@ -46,67 +46,67 @@ const products = {
         category: 'Hats'
     },
     'p18': {
-        name: 'Woolen Scarf',
-        price: 'R150.00',
-        description: 'Cozy woolen scarf to keep you warm during chilly weather. Available in multiple colors.',
+        name: '',
+        price: 'R450.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
         mainImage: './image/product/p18.png',
         gallery: ['./image/product/p8.png', './image/product/p17.png', './image/product/p18.png', './image/product/p38.png'],
         rating: 5,
-        category: 'Scarves'
+        category: 'Hoodies'
     },
     'p19': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"LIFE OF CHRIST" White Hoodie',
+        price: 'R450.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
         mainImage: './image/product/p19.png',
         gallery: ['./image/product/p19.png', './image/product/p20.png', './image/product/p21.png', './image/product/p22.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p20': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"LIFE OF CHRIST" Black Hoodie',
+        price: 'R450.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
         mainImage: './image/product/p20.png',
         gallery: ['./image/product/p20.png', './image/product/p19.png', './image/product/p21.png', './image/product/p22.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p22': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"LIFE OF CHRIST" Blue Hoodie',
+        price: 'R450.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
         mainImage: './image/product/p22.png',
         gallery: ['./image/product/p22.png', './image/product/p21.png', './image/product/p20.png', './image/product/p19.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p23': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"JESUS SAVES LIVES" Blue Hoddie',
+        price: 'R450.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p23.png',
         gallery: ['./image/product/p23.png', './image/product/p24.png', './image/product/p25.png', './image/product/p26.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p24': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"JESUS SAVES LIVES" Gray Hoddie',
+        price: 'R450.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p24.png',
         gallery: ['./image/product/p24.png', './image/product/p23.png', './image/product/p26.png', './image/product/p25.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p25': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"JESUS SAVES LIVES" Pink Hoddie',
+        price: 'R450.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p25.png',
         gallery: ['./image/product/p5.png', './image/product/p23.png', './image/product/p24.png', './image/product/p25.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },
     'p26': {
         name: 'Casual Sneakers',
@@ -183,22 +183,22 @@ const products = {
         category: 'Hats'
     },
     'p35': {
-        name: 'Casual Sneakers',
-        price: 'R900.00',
-        description: 'Trendy casual sneakers for everyday wear. Comfortable and stylish.',
+        name: '"JESUS SAVES LIVES" Brown Hoddie',
+        price: 'R450.00',
+        description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage: './image/product/p35.png',
         gallery: ['./image/product/p35.png', './image/product/p23.png', './image/product/p24.png', './image/product/p25.png'],
         rating: 5,
-        category: 'Shoes'
+        category: 'Hoodies'
     },
     'p36': {
-        name: 'Knitted Beanie',
-        price: 'R100.00',
-        description: 'Soft and warm knitted beanie to keep you cozy during cold weather.',
+        name: '"LIFE OF CHRIST" Green Hoodie',
+        price: 'R450.00',
+        description: 'The Son of God was born in Bethlelhem, Judea. His life was marked with teachings about love, forgiveness and the Kingdom of God. He was crucified on a cross between two thieves. After three days he rose.',
         mainImage: './image/product/p36.png',
         gallery: ['./image/product/p36.png', './image/product/p20.png', './image/product/p21.png', './image/product/p22.png'],
         rating: 3,
-        category: 'Hats'
+        category: 'Hoodies'
     },
     'p39': {
         name: 'Casual Sneakers',
@@ -247,148 +247,148 @@ const products = {
         category: 'Hats'
     },
     'p48': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'Blue Snapback cap',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p48.png',
         gallery: ['./image/product/p50.png', './image/product/p51.png', './image/product/p52.png', './image/product/p48.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p49': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'Black Snapback cap',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p49.png',
         gallery: ['./image/product/p59.png', './image/product/p51.png', './image/product/p54.png', './image/product/p48.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p50': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'Green Snapback cap',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p50.png',
         gallery: ['./image/product/p49.png', './image/product/p53.png', './image/product/p50.png', './image/product/p52.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p51': {    
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',    
+        name: 'Gray Snapback cap',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p51.png',
         gallery: ['./image/product/p49.png', './image/product/p53.png', './image/product/p50.png', './image/product/p51.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p52': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'Red Snapback cap',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p52.png',
         gallery: ['./image/product/p49.png', './image/product/p53.png', './image/product/p50.png', './image/product/p52.png'],
         rating: 5,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p55': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'Black Tracker\'s cap',
+        price: 'R150.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p55.png',
         gallery: ['./image/product/55.png', './image/product/p56.png', './image/product/p57.png', './image/product/p58.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p56': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'Gray Tracker\'s cap',
+        price: 'R150.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p56.png',
         gallery: ['./image/product/p55.png', './image/product/p56.png', './image/product/p57.png', './image/product/p58.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p57': {
-        name: 'Travel Backpack',
-        price: 'R1100.00',
-        description: 'Comfortable and spacious travel backpack with sturdy straps and waterproof material.',
+        name: 'White Tracker\'s cap',
+        price: 'R150.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p57.png',
         gallery: ['./image/product/p55.png', './image/product/p56.png', './image/product/p57.png', './image/product/p58.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p58': {
-        name: 'Vintage Hat',
-        price: 'R350.00',
-        description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
+        name: 'Pink Tracker\'s cap',
+        price: 'R150.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p59.png',
         gallery: ['./image/product/p55.png', './image/product/p56.png', './image/product/p58.png', './image/product/p61.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Accessories'
     },
     'p60': {
-        name: 'Vintage Hat',
-        price: 'R350.00',
-        description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
+        name: 'Green Tracker\'s cap',
+        price: 'R150.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p60.png',
         gallery: ['./image/product/p56.png', './image/product/p57.png', './image/product/p61.png', './image/product/p60.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Accessories'
     },
     'p61': {
-        name: 'Vintage Hat',
-        price: 'R350.00',
-        description: 'Stylish vintage hat with a classic design. Adds elegance to any outfit.',
+        name: 'Red Tracker\'s cap',
+        price: 'R150.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p61.png',
         gallery: ['./image/product/p56.png', './image/product/p57.png', './image/product/p61.png', './image/product/p60.png'],
         rating: 4,
-        category: 'Hats'
+        category: 'Accessories'
     },
     'p62': {
-        name: 'Premium T-Shirt',
-        price: 'R180.00',
-        description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
+        name: 'Moses Green Barket hat with Key bag',
+        price: 'R190.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p62.png',
         gallery: ['./image/product/p62.png', './image/product/p64.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
-        category: 'T-Shirts'
+        category: 'Accessories'
     },
     'p63': {
-        name: 'Premium T-Shirt',
-        price: 'R180.00',
-        description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
+        name: 'Black Barket hat with Key bag',
+        price: 'R190.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p63.png',
         gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
-        category: 'T-Shirts'
+        category: 'Accessories'
     },
     'p64': {
-        name: 'Premium T-Shirt',
-        price: 'R180.00',
-        description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
+        name: 'Red Barket hat with Key bag',
+        price: 'R190.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p64.png',
         gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
-        category: 'T-Shirts'
+        category: 'Accessories'
     },
     'p65': {
-        name: 'Premium T-Shirt',
-        price: 'R180.00',
-        description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
+        name: 'Blue Barket hat with Key bag',
+        price: 'R190.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p65.png',
         gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
-        category: 'T-Shirts'
+        category: 'Accessories'
     },
     'p66': {
-        name: 'Premium T-Shirt',
-        price: 'R180.00',
-        description: 'High-quality cotton t-shirt designed for maximum comfort and style. Perfect for everyday wear.',
+        name: 'Green Barket hat with Key bag',
+        price: 'R190.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p66.png',
         gallery: ['./image/product/p62.png', './image/product/p63.png', './image/product/p65.png', './image/product/p66.png'],
         rating: 4,
-        category: 'T-Shirts'
+        category: 'Accessories'
     },
     'p77': {
         name: '"EXODUS 12:13" Red T-Shirt',
@@ -490,58 +490,58 @@ const products = {
         category: 'T-Shirts'
     },
     'p92': {
-        name: 'Summer Dress',
-        price: 'R550.00',
-        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
+        name: '"JESUS LOVE YOU" Blue T-Shirt',
+        price: 'R250.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p92.png',
         gallery: ['./image/product/p92.png', './image/product/p93.png', './image/product/p94.png', './image/product/p95.png'],
         rating: 5,
-        category: 'Dresses'
+        category: 'T-Shirts'
     },
     'p93': {
-        name: 'Summer Dress',
-        price: 'R550.00',        
-        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',        
+        name: '"JESUS LOVE YOU" Beige T-Shirt',
+        price: 'R250.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',        
         mainImage: './image/product/p93.png',
         gallery: ['./image/product/p92.png', './image/product/p93.png', './image/product/p94.png', './image/product/p95.png'],
         rating: 5,
-        category: 'Dresses'
+        category: 'T-Shirts'
     },
     'p94': {
-        name: 'Summer Dress',
-        price: 'R550.00',
-        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
+        name: '"JESUS LOVE YOU" Red T-Shirt',
+        price: 'R250.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p94.png',
         gallery: ['./image/product/p92.png', './image/product/p93.png', './image/product/p94.png', './image/product/p95.png'],
         rating: 5,
-        category: 'Dresses'
+        category: 'T-Shirts'
     },
     'p95': {
-        name: 'Summer Dress',
-        price: 'R550.00',
-        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
+        name: '"JESUS LOVE YOU" Pink T-Shirt',
+        price: 'R250.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p95.png',
         gallery: ['./image/product/p96.png', './image/product/p95.png', './image/product/p92.png', './image/product/p93.png'],
         rating: 5,
-        category: 'Dresses'
+        category: 'T-Shirts'
     },
     'p96': {
-        name: 'Summer Dress',
-        price: 'R550.00',
-        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
+        name: '"JESUS LOVE YOU" Black T-Shirt',
+        price: 'R250.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p96.png',
         gallery: ['./image/product/p96.png', './image/product/p95.png', './image/product/p92.png', './image/product/p93.png'],
         rating: 5,
-        category: 'Dresses'
+        category: 'T-Shirts'
     },
     'p97': {
-        name: 'Summer Dress',
-        price: 'R550.00',
-        description: 'Flowy and lightweight summer dress. Perfect for sunny days and beach outings.',
+        name: '"JESUS LOVE YOU" Green T-Shirt',
+        price: 'R250.00',
+        description: 'Share the universal message of God\'s unconditional love with this heartwarming design. "Jesus Loves You" is gently written in a beautiful, cursive font, reminding everyone of the infinite love and compassion of our Savior.',
         mainImage: './image/product/p97.png',
         gallery: ['./image/product/p96.png', './image/product/p97.png', './image/product/p94.png', './image/product/p93.png'],
         rating: 5,
-        category: 'Dresses'
+        category: 'T-Shirts'
     },
     'p98': {
         name: '"HE DEFEATED DEATH" Green T-Shirt',
@@ -660,68 +660,59 @@ const products = {
         rating: 4,
         category: 'T-Shirts'
     },
-    'p111': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
-        mainImage: './image/product/p111.png',
-        gallery: ['./image/product/p111.png', './image/product/p112.png', './image/product/p113.png', './image/product/p114.png'],
-        rating: 4,
-        category: 'Bags'
-    },
     'p112': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        name: 'Green Barket hat',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p112.png',
         gallery: ['./image/product/p113.png', './image/product/p112.png', './image/product/p115.png', './image/product/p116.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p113': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        name: 'Blue Barket hat',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p113.png',
         gallery: ['./image/product/p113.png', './image/product/p112.png', './image/product/p114.png', './image/product/p115.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p114': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        name: 'Black Barket hat',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p114.png',
         gallery: ['./image/product/p114.png', './image/product/p112.png', './image/product/p113.png', './image/product/p115.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p115': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        name: 'Gray Barket hat',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p115.png',
         gallery: ['./image/product/p115.png', './image/product/p112.png', './image/product/p113.png', './image/product/p114.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p116': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        name: 'Red Barket hat',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p116.png',
         gallery: ['./image/product/p116.png', './image/product/p112.png', './image/product/p113.png', './image/product/p114.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p117': {
-        name: 'Gym Bag',
-        price: 'R800.00',
-        description: 'Spacious and durable gym bag with multiple compartments for all your essentials.',
+        name: 'Beige Barket hat',
+        price: 'R160.00',
+        description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p117.png',
         gallery: ['./image/product/p112.png', './image/product/p113.png', './image/product/p114.png', './image/product/p117.png'],
         rating: 4,
-        category: 'Bags'
+        category: 'Accessories'
     },
     'p118': {
         name: 'Light Beige Tote Bag',
