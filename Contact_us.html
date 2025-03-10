@@ -10,16 +10,28 @@
     <title>Contact Us</title>
     <style>
         .contact-section {
-            background-color: #f8f9fa;
-            padding: 50px 0;
+          background-image: url(./image/event_backdrop.png);
+          width: 100%;
+          height: 100vh;
+          background-size: cover;
+          background-position: bottom center;
+          display: flex;
+          padding: 50px 0;
         }
         .contact-form {
-            max-width: 600px;
+            min-width: 500px;
             margin: 0 auto;
-            background: white;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 30px;
+            margin-top: 40px;
+            margin-bottom: 60px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            color: white;
         }
         .submit-btn {
             background: #ed7f02;
@@ -58,7 +70,7 @@
         </div>
     </nav>
 
-    <section class="contact-section container my-5 py-5">
+    <section class="contact-section my-5 py-5">
         <div class="contact-form">
             <h2 class="text-center mb-4">Contact Us</h2>
             <form id="contactForm">
@@ -83,7 +95,7 @@
         </div>
     </section>
 
-    <footer class="mt-5 py-5">
+    <footer>
         <div class="row container mx-auto pt-5">
           <div class="footer-one col-lg-3 col-md-6 col-12">
             <img id="logo" src="./image/logof.png" alt="">
