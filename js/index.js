@@ -786,16 +786,6 @@ function loadProductDetails() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const smallImages = document.querySelectorAll('.small-img');
-    const mainImage = document.getElementById('mainImg');
-
-    smallImages.forEach(img => {
-        img.addEventListener('click', function() {
-            mainImage.src = this.src;
-        });
-    });
-});
 // document.addEventListener('DOMContentLoaded', function() {
 //     const smallImages = document.querySelectorAll('.small-img');
 //     const mainImage = document.getElementById('mainImg');
@@ -803,26 +793,54 @@ document.addEventListener('DOMContentLoaded', function() {
 //     smallImages.forEach(img => {
 //         img.addEventListener('click', function() {
 //             mainImage.src = this.src;
-            
-//             // Find the product ID from the clicked image
-//             const imgPath = this.src;
-//             const imgFilename = imgPath.split('/').pop();
-            
-//             // Find the product that contains this image in its gallery
-//             for (const productId in products) {
-//                 const product = products[productId];
-//                 if (product.gallery.some(galleryImg => galleryImg.includes(imgFilename))) {
-//                     // Update the selected product in localStorage
-//                     localStorage.setItem('selectedProduct', JSON.stringify(product));
-//                     // Update the product details on the page
-//                     loadProductDetails();
-//                     break;
-//                 }
-//             }
 //         });
 //     });
 // });
-
+// Replace the existing small image click handlers
+document.addEventListener('DOMContentLoaded', function() {
+    const MainImg = document.getElementById('mainImg');
+    const smallImgs = document.getElementsByClassName('small-img');
+    
+    // Function to update product info based on image source
+    function updateProductInfo(imgSrc) {
+        // Extract product ID from image path
+        const productId = imgSrc.split('/').pop().split('.')[0];
+        
+        // Check if product exists in our product database
+        if (products[productId]) {
+            const product = products[productId];
+            
+            // Update main image
+            MainImg.src = imgSrc;
+            
+            // Update product details
+            document.querySelector('h3.py-4').textContent = product.name;
+            document.querySelector('h2').textContent = product.price;
+            document.querySelector('span').textContent = product.description;
+            document.querySelector('h6').textContent = `Home / ${product.category}`;
+            
+            // Update product rating stars
+            const stars = document.querySelectorAll('.star i');
+            stars.forEach((star, index) => {
+                if (index < product.rating) {
+                    star.className = 'fa-solid fa-star';
+                } else {
+                    star.className = 'fa-regular fa-star';
+                }
+            });
+            
+            // Store selected product in localStorage
+            localStorage.setItem('selectedProduct', JSON.stringify(product));
+        }
+    }
+    
+    // Add click handlers to all small images
+    for (let i = 0; i < smallImgs.length; i++) {
+        smallImgs[i].onclick = function() {
+            updateProductInfo(this.src);
+        }
+    }
+});
 
 function updateCartCounter() {
     const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
