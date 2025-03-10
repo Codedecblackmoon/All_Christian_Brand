@@ -175,6 +175,28 @@ button:hover{
 #home p{
     font-style: italic;
 }
+#event{
+    background-image: url(../image/e2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: flex-start; */
+    color: #f8f8f8;
+}
+
+#event h1{
+    margin: 0 0 10px 0;
+    font-style: Bold;
+}
+
+#event p{
+    font-style: italic;
+}
+
 
 #new .one img {
     width: 100%;
