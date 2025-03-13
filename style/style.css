@@ -352,7 +352,7 @@ hr{
     background-size: cover;
     background-position: top 70px center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;l
     display: flex;
     flex-direction: column;
     justify-content: center;
