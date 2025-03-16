@@ -6,6 +6,12 @@ const yoco = new window.YocoSDK({
   });
   
   // EmailJS configuration
+  // const EMAIL_CONFIG = {
+  //   serviceID: 'service_4b0mwhe',
+  //   templateID: 'template_oxc16mb',
+  //   userID: 'm_XcbcDfp4HlS5nKC'
+  // };
+
   const EMAIL_CONFIG = {
     serviceID: 'service_4b0mwhe',
     templateID: 'template_oxc16mb',

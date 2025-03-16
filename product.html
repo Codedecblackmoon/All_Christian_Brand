@@ -66,7 +66,6 @@
             <a class="nav-link" href="Contact_us.html">Contact us</a>
           </li>
           <li class="nav-item">
-            <i class="fa-solid fa-magnifying-glass"></i>
             <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
           </li>
       </div>
@@ -256,12 +255,30 @@
         MainImg.src = smallimg[3].src;
       }
 
+      document.addEventListener('DOMContentLoaded', function() {
+          // Get the selected product from localStorage
+          const selectedProduct = JSON.parse(localStorage.getItem('selectedProduct'));
+          
+          if (selectedProduct) {
+              // Check if the product category is Bag or Accessories
+              if (selectedProduct.category === 'Bag' || selectedProduct.category === 'Accessories') {
+                  // Get the size selection element
+                  const sizeSelect = document.querySelector('.sproduct select');
+                  
+                  // Hide the size selection if it exists
+                  if (sizeSelect) {
+                      sizeSelect.style.display = 'none';
+                  }
+              }
+          }
+      });
+
       document.querySelector('.btn').addEventListener('click', function() {
         const product = JSON.parse(localStorage.getItem('selectedProduct'));
         const size = document.querySelector('select').value;
         const quantity = parseInt(document.querySelector('input[type="number"]').value);
         const addButton = this;
-        
+
         if (size === 'Select Size') {
             alert('Please select a size');
             return;
@@ -302,7 +319,7 @@
         }, 2000);
     });
     </script>
-    <script>
+    <!-- <script>
       // Add this to the existing JavaScript in product.html or in the loadProductDetails function
       document.addEventListener('DOMContentLoaded', function() {
           // Get the selected product from localStorage
@@ -321,6 +338,6 @@
               }
           }
       });
-    </script>
+    </script> -->
 </body>
 </html> 
