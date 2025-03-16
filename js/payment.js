@@ -12,10 +12,12 @@ const yoco = new window.YocoSDK({
   //   userID: 'm_XcbcDfp4HlS5nKC'
   // };
 
+
+  //DIDI
   const EMAIL_CONFIG = {
-    serviceID: 'service_4b0mwhe',
-    templateID: 'template_oxc16mb',
-    userID: 'm_XcbcDfp4HlS5nKC'
+    serviceID: 'service_rpzvisf',
+    templateID: 'template_o7p1euf',
+    userID: 'y0aBZvbzvbY1cpD0b'
   };
   
   // Function to format cart items for email
