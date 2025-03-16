@@ -274,12 +274,29 @@
       });
 
       document.querySelector('.btn').addEventListener('click', function() {
+        // const product = JSON.parse(localStorage.getItem('selectedProduct'));
+        // const size = document.querySelector('select').value;
+        // const quantity = parseInt(document.querySelector('input[type="number"]').value);
+        // const addButton = this;
+
+        // if (size === 'Select Size') {
+        //     alert('Please select a size');
+        //     return;
+        // }
+
         const product = JSON.parse(localStorage.getItem('selectedProduct'));
-        const size = document.querySelector('select').value;
+        const sizeSelect = document.querySelector('select');
         const quantity = parseInt(document.querySelector('input[type="number"]').value);
         const addButton = this;
-
-        if (size === 'Select Size') {
+        
+        // Determine if size is required based on product category
+        const isSizeRequired = !(product.category === 'Bag' || product.category === 'Accessories');
+        
+        // Get size value or set to "One Size" for accessories/bags
+        let size = isSizeRequired ? sizeSelect.value : "One Size";
+        
+        // Only validate size selection if it's required
+        if (isSizeRequired && size === 'Select Size') {
             alert('Please select a size');
             return;
         }
