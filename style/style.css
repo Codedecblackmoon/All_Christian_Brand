@@ -201,12 +201,10 @@ button:hover{
 }
 
 .event{
-    /* width: 100%; */
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 30px; */
     text-align: center;
     color: #000;
 }
@@ -288,12 +286,12 @@ button:hover{
 hr{
     width: 30px;
     height: 2px;
-    background-color: #ed7f02;
+    background-color: #a18e7f;
 }
 
 .star i{
     font-size: 0.8rem;
-    color: goldenrod;
+    color: #a18e7f;
 }
 
 .star{
@@ -316,7 +314,7 @@ hr{
 }
 
 .product .buy-btn{
-    background: #ed7f02;
+    background: #a18e7f;
     transform: translateY(20px);
     opacity: 0;
     transition: 0.3s all;
@@ -359,12 +357,12 @@ hr{
 }
 
 #banner button{
-    background-color: #ed7f02;
+    background-color: #a18e7f;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 #newbanner button{
-    background-color: #ed7f02;
+    background-color: #a18e7f;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
@@ -427,7 +425,7 @@ footer .copyright .g{
 
 footer .copyright a:hover{
     color:#fff;
-    background-color: #ed7f02;
+    background-color: #a18e7f;
 }
 
 #blog-containet .post .post-img{
@@ -450,7 +448,7 @@ footer .copyright a:hover{
 }
 
 #blog-containet .post:hover h3{
-    color: #ed7f02;
+    color: #a18e7f;
 }
 
 #cart-container table {
@@ -464,7 +462,7 @@ footer .copyright a:hover{
 }
 
 #cart-container table thead td{    
-    background: #ed7f02;
+    background: #a18e7f;
     color: #fff;
     border: none;
     padding: 6px 15px;
@@ -503,7 +501,7 @@ footer .copyright a:hover{
 @media screen and (max-width: 991px) {
     body>nav>div>button:hover,
     body>nav>div>button:focus{
-        background-color: #ed7f02;
+        background-color: #a18e7f;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
 
