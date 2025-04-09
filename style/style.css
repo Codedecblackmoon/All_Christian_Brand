@@ -235,7 +235,7 @@ button:hover{
 
 #new .one:hover .details{
     cursor: pointer;
-    background-color: rgba(255, 156, 43, 0.4);
+    background-color: rgba(161, 142, 127, 0.4);
 }
 
 #new .one .details button{

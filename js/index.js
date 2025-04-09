@@ -785,18 +785,6 @@ function loadProductDetails() {
         }
     });
 }
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const smallImages = document.querySelectorAll('.small-img');
-//     const mainImage = document.getElementById('mainImg');
-
-//     smallImages.forEach(img => {
-//         img.addEventListener('click', function() {
-//             mainImage.src = this.src;
-//         });
-//     });
-// });
-// Replace the existing small image click handlers
 document.addEventListener('DOMContentLoaded', function() {
     const MainImg = document.getElementById('mainImg');
     const smallImgs = document.getElementsByClassName('small-img');
@@ -861,7 +849,7 @@ function updateCartCounter() {
                 position: absolute; 
                 top: -8px; 
                 right: -8px; 
-                background-color: #ed7f02; 
+                background-color: #a18e7f; 
                 color: white; 
                 border-radius: 50%; 
                 padding: 2px 6px; 
