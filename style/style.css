@@ -111,11 +111,11 @@ button:hover{
 .navbar-light .navbar-nav .nav-link.active,
 .navbar i.active,
 .navbar a{
-    color: #ed7f02;
+    color: #a18e7f;
 }
 
 #navbarSupportedContent > ul > li:nth-child(6) > a:active{
-    color: #ed7f02;
+    color: #a18e7f;
 }
 
 #cart-items > div:nth-child(n) > div > div:nth-child(2){
@@ -151,7 +151,7 @@ button:hover{
 }
 
 #home span {
-    color: #ed7f02;
+    color: #a18e7f;
 }
 
 #home{
@@ -183,9 +183,7 @@ button:hover{
     background-position: bottom center;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: flex-start; */
-    color: #ed7f02;
+    color: #a18e7f;
 }
 
 #event h1{
