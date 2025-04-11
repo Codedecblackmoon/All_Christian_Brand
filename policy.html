@@ -4,17 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", serif;
+        }
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        .policies{
+            margin: 100px 0;
+        }
+        #policies{
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            
+        }
+    </style>
 </head>
 <body>
-    <img id="logo" src="image/logo3.png" alt="">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i  id="bar" class="fa-solid fa-bars"></i></span>
-    </button>
+    <div class="policies">
+        <img class="logo" src="image/logo3.png" alt="">
+        <div id="policies">
+            <h2>Ordering and Payment Policy</h2>
+            <hr class="mx-auto">
+            <p>At All Christian, we operate as an online business, utilizing a print-on-demand model.
+                This means that we don't hold stock of our products. Instead, we produce and ship
+                items only after an order has been placed.</p>
+        </div>
 
-Ordering and Payment Policy
-At All Christian, we operate as an online business, utilizing a print-on-demand model.
-This means that we don't hold stock of our products. Instead, we produce and ship
-items only after an order has been placed.
+    </div>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i  id="bar" class="fa-solid fa-bars"></i></span>
+    </button> -->
+
+
 
 Payment Processing
 When you place an order with us, your payment is processed immediately. Please note
