@@ -16,7 +16,7 @@ const yoco = new window.YocoSDK({
   //DIDI
   const EMAIL_CONFIG = {
     serviceID: 'service_rpzvisf',
-    templateID: 'template_o7p1euf',
+    templateID: 'template_4n0gh6e',
     userID: 'y0aBZvbzvbY1cpD0b'
   };
   
