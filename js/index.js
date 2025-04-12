@@ -346,7 +346,7 @@ const products = {
         category: 'Accessories'
     },
     'p62': {
-        name: 'Moses Green Barket hat with Key bag',
+        name: 'Moses Green Packable Hat',
         price: 'R190.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p62.png',
@@ -355,7 +355,7 @@ const products = {
         category: 'Accessories'
     },
     'p63': {
-        name: 'Black Barket hat with Key bag',
+        name: 'Black Packable Hat',
         price: 'R190.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p63.png',
@@ -364,7 +364,7 @@ const products = {
         category: 'Accessories'
     },
     'p64': {
-        name: 'Red Barket hat with Key bag',
+        name: 'Red Packable Hat',
         price: 'R190.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p64.png',
@@ -373,7 +373,7 @@ const products = {
         category: 'Accessories'
     },
     'p65': {
-        name: 'Blue Barket hat with Key bag',
+        name: 'Blue Packable Hat',
         price: 'R190.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p65.png',
@@ -382,7 +382,7 @@ const products = {
         category: 'Accessories'
     },
     'p66': {
-        name: 'Green Barket hat with Key bag',
+        name: 'Green Packable Hat',
         price: 'R190.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage: './image/product/p66.png',
