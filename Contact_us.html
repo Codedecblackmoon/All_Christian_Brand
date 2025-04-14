@@ -9,36 +9,74 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Contact Us</title>
     <style>
-        .contact-section {
-          background-image: url(./image/event_backdrop.png);
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* .contact-section {
+        background-image: url(./image/event_backdrop.png);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: bottom center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        position: relative;
+      } */
+
+      .contact-section {
+        background-image: url(./image/event_backdrop.png);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        /* width: 100%; */
+        /* height: 100vh;  */
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        padding: 0;
+        margin: 0;
+        position: relative;
+      }
+
+      .contact-form {
+          min-width: 500px;
+          margin: 0 auto;
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(5px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          padding: 30px;
+          margin-top: 20px;
+          /* margin-bottom: 20px; */
+          border-radius: 10px;
+          color: white;
+          height: fit-content;
+      }
+      .submit-btn {
+          background: #a18e7f;
+          border: none;
+          color: white;
           width: 100%;
-          height: 100vh;
-          background-size: cover;
-          background-position: bottom center;
-          display: flex;
-          padding: 50px 0;
-        }
+      }
+
+      footer {
+        margin-top: 0px;
+        padding: 0px;
+      }
+
+      @media screen and (max-width: 991px) {
         .contact-form {
-            min-width: 500px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            padding: 30px;
-            margin-top: 40px;
-            margin-bottom: 60px;
-            border-radius: 10px;
-            color: white;
+          height: fit-content;
+          min-width: 300px;
         }
-        .submit-btn {
-            background: #a18e7f;
-            border: none;
-            color: white;
-            width: 100%;
-        }
+      }
     </style>
 </head>
 <body>
@@ -76,19 +114,19 @@
             <form id="contactForm">
                 <div class="form-group">
                     <label for="name">Full Name</label>
-                    <input type="text" class="form-control" id="name" required>
+                    <input type="text" class="form-control" id="name" required placeholder="Enter your name">
                 </div>
                 <div class="form-group">
                     <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <input type="email" class="form-control" id="email" required placeholder="exmple@gmail.com">
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone">
+                    <input type="tel" class="form-control" id="phone" required placeholder="Enter your phone number">
                 </div>
                 <div class="form-group">
                     <label for="message">Your Message</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                    <textarea class="form-control" id="message" rows="4" required placeholder="Enter your message"></textarea>
                 </div>
                 <button type="submit" class="btn submit-btn mt-3">Send Message</button>
             </form>
