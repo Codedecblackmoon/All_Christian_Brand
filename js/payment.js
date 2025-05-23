@@ -37,7 +37,9 @@ const yoco = new window.YocoSDK({
   }
   
   // Function to send order confirmation email
-  async function sendOrderConfirmation(orderDetails) {
+  async function sendOrderConfirmation(orderDetails)
+   {
+    const emailToSendTo = document.getElementById
     const templateParams = {
       from_name: orderDetails.customerName,
       from_email: orderDetails.email,
