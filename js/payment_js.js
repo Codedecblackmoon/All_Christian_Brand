@@ -12,7 +12,6 @@ const yoco = new window.YocoSDK({
   //   userID: 'm_XcbcDfp4HlS5nKC'
   // };
 
-
   //DIDI
   const EMAIL_CONFIG = {
     serviceID: 'service_rpzvisf',
@@ -27,19 +26,37 @@ const yoco = new window.YocoSDK({
     ).join('\n');
   }
   
-  // Function to calculate total with shipping
+  // Function to calculate total with selected delivery option
   function calculateTotal(cartItems) {
     const subtotal = cartItems.reduce((sum, item) => {
       return sum + (parseFloat(item.price.replace('R', '')) * item.quantity);
     }, 0);
-    const shipping = 50; // Fixed shipping cost
-    return subtotal + shipping;
+    
+    // Get selected delivery option from localStorage
+    const deliveryOption = JSON.parse(localStorage.getItem('selectedDeliveryOption')) || { cost: 50 };
+    const deliveryCost = deliveryOption.cost;
+    
+    return subtotal + deliveryCost;
+  }
+  
+  // Function to get delivery option description
+  function getDeliveryDescription() {
+    const deliveryOption = JSON.parse(localStorage.getItem('selectedDeliveryOption')) || { option: 'johannesburg' };
+    
+    switch(deliveryOption.option) {
+      case 'collect':
+        return 'Collect at Store (FREE)';
+      case 'johannesburg':
+        return 'Door to Door - Johannesburg (R50.00)';
+      case 'outside':
+        return 'Door to Door - Outside Johannesburg (R100.00)';
+      default:
+        return 'Door to Door - Johannesburg (R50.00)';
+    }
   }
   
   // Function to send order confirmation email
-  async function sendOrderConfirmation(orderDetails)
-   {
-    const emailToSendTo = document.getElementById
+  async function sendOrderConfirmation(orderDetails) {
     const templateParams = {
       from_name: orderDetails.customerName,
       from_email: orderDetails.email,
@@ -47,6 +64,9 @@ const yoco = new window.YocoSDK({
         Order Details:
         ${orderDetails.cartItems}
         
+        Delivery Option: ${orderDetails.deliveryOption}
+        Subtotal: R${orderDetails.subtotal}
+        Delivery Cost: R${orderDetails.deliveryCost}
         Total Amount: R${orderDetails.total}
         Shipping Address: ${orderDetails.shippingAddress}
         
@@ -76,6 +96,12 @@ const yoco = new window.YocoSDK({
     // Get cart items from localStorage
     const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
     const total = calculateTotal(cartItems);
+    
+    // Get delivery option details
+    const deliveryOption = JSON.parse(localStorage.getItem('selectedDeliveryOption')) || { option: 'johannesburg', cost: 50 };
+    const subtotal = cartItems.reduce((sum, item) => {
+      return sum + (parseFloat(item.price.replace('R', '')) * item.quantity);
+    }, 0);
   
     // Get form data
     const form = event.target;
@@ -101,6 +127,9 @@ const yoco = new window.YocoSDK({
             customerName,
             email,
             cartItems: formatCartItemsForEmail(cartItems),
+            deliveryOption: getDeliveryDescription(),
+            subtotal: subtotal.toFixed(2),
+            deliveryCost: deliveryOption.cost.toFixed(2),
             total: total.toFixed(2),
             shippingAddress,
             transactionId: result.id
@@ -109,8 +138,9 @@ const yoco = new window.YocoSDK({
           // Send order confirmation
           await sendOrderConfirmation(orderDetails);
   
-          // Clear cart and redirect
+          // Clear cart and delivery option, then redirect
           localStorage.removeItem('cartItems');
+          localStorage.removeItem('selectedDeliveryOption');
           alert('Payment successful! Order confirmation has been sent to your email.');
           window.location.href = 'index.html';
         }
@@ -135,7 +165,7 @@ const yoco = new window.YocoSDK({
     if (orderTotalElement) {
       orderTotalElement.textContent = `R${total.toFixed(2)}`;
     }
-
+    
     // Display delivery option on payment page
     const deliveryElement = document.getElementById('deliveryOption');
     if (deliveryElement) {
