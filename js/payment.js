@@ -118,8 +118,16 @@ const yoco = new window.YocoSDK({
           await sendOrderConfirmation(orderDetails);
   
           // Clear cart and redirect
+          // localStorage.removeItem('cartItems');
+          // alert('Payment successful! Order confirmation has been sent to your email.');
+           await Swal.fire({
+            title: "Payment successful!",
+            text: 'Our team will contact you shortly to confirm your order.',
+            icon: 'success',
+            confirmButtonText: 'OK'
+          });
+          // Clear cart and redirect
           localStorage.removeItem('cartItems');
-          alert('Payment successful! Order confirmation has been sent to your email.');
           window.location.href = 'index.html';
         }
       });
