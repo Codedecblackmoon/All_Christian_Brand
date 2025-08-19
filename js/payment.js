@@ -6,24 +6,24 @@ const yoco = new window.YocoSDK({
   });
   
   // EmailJS configuration
-  // const EMAIL_CONFIG = {
-  //   serviceID: 'service_4b0mwhe',
-  //   templateID: 'template_oxc16mb',
-  //   userID: 'm_XcbcDfp4HlS5nKC'
-  // };
+  const EMAIL_CONFIG = {
+    serviceID: 'service_4b0mwhe',
+    templateID: 'template_oxc16mb',
+    userID: 'm_XcbcDfp4HlS5nKC'
+  };
 
 
   //DIDI
-  const EMAIL_CONFIG = {
-    serviceID: 'service_rpzvisf',
-    templateID: 'template_4n0gh6e',
-    userID: 'y0aBZvbzvbY1cpD0b'
-  };
+  // const EMAIL_CONFIG = {
+  //   serviceID: 'service_rpzvisf',
+  //   templateID: 'template_4n0gh6e',
+  //   userID: 'y0aBZvbzvbY1cpD0b'
+  // };
   
   // Function to format cart items for email
   function formatCartItemsForEmail(cartItems) {
     return cartItems.map(item => 
-      `${item.name} - Quantity: ${item.quantity} - Price: R${item.price}`
+      `${item.name}- Size: ${item.size} - Quantity: ${item.quantity} - Price: R${item.price}`
     ).join('\n');
   }
   
@@ -32,7 +32,7 @@ const yoco = new window.YocoSDK({
     const subtotal = cartItems.reduce((sum, item) => {
       return sum + (parseFloat(item.price.replace('R', '')) * item.quantity);
     }, 0);
-    const shipping = 50; // Fixed shipping cost
+    const shipping = 0; // Fixed shipping cost
     return subtotal + shipping;
   }
   
@@ -46,6 +46,11 @@ const yoco = new window.YocoSDK({
       message: `
         Order Details:
         ${orderDetails.cartItems}
+
+        Customer Info:
+        Name: ${orderDetails.customerName}
+        Number: ${orderDetails.PhonNumber}
+        Email: ${orderDetails.email}
         
         Total Amount: R${orderDetails.total}
         Shipping Address: ${orderDetails.shippingAddress}
@@ -80,8 +85,10 @@ const yoco = new window.YocoSDK({
     // Get form data
     const form = event.target;
     const customerName = form.querySelector('[name="cardHolder"]').value;
+    const PhonNumber = form.querySelector('[name="PhoneNumber"]').value;
     const email = form.querySelector('[name="email"]').value;
     const shippingAddress = form.querySelector('[name="shippingAddress"]').value;
+
   
     try {
       // Initialize Yoco popup payment
@@ -100,6 +107,7 @@ const yoco = new window.YocoSDK({
           const orderDetails = {
             customerName,
             email,
+            PhonNumber,
             cartItems: formatCartItemsForEmail(cartItems),
             total: total.toFixed(2),
             shippingAddress,

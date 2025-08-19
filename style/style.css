@@ -508,6 +508,22 @@ footer .copyright a:hover{
     width: 170px;
 }
 
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info #F{
+    display: flex;
+    flex-direction: column;
+}
+
+.info #P{
+    display: flex;
+    flex-direction: column
+}
+
 #cart-container table tbody img{
     width: 100px;
     height: 80px;
@@ -523,6 +539,14 @@ footer .copyright a:hover{
     body>nav>div>button:focus{
         background-color: #a18e7f;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info #P{
+        padding-top: 20px;
     }
 
     body>nav>div>button:hover #bar,
