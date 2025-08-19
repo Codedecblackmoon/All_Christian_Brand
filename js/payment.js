@@ -1,8 +1,8 @@
 // payment.js
 
-// Initialize Yoco
+// Initialize Yoco pk_live_b8a3cb9f2rY89ZB51d64
 const yoco = new window.YocoSDK({
-    publicKey: 'pk_test_ed3c54a6gOol69qa7f45'
+    publicKey: 'pk_live_b8a3cb9f2rY89ZB51d64'
   });
   
   // EmailJS configuration
@@ -13,7 +13,7 @@ const yoco = new window.YocoSDK({
   };
 
 
-  //DIDI
+  //DIDI pk_test_ed3c54a6gOol69qa7f45
   // const EMAIL_CONFIG = {
   //   serviceID: 'service_rpzvisf',
   //   templateID: 'template_4n0gh6e',
@@ -88,7 +88,6 @@ const yoco = new window.YocoSDK({
     const PhonNumber = form.querySelector('[name="PhoneNumber"]').value;
     const email = form.querySelector('[name="email"]').value;
     const shippingAddress = form.querySelector('[name="shippingAddress"]').value;
-
   
     try {
       // Initialize Yoco popup payment
