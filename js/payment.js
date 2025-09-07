@@ -3,6 +3,7 @@
 // Initialize Yoco pk_live_b8a3cb9f2rY89ZB51d64
 const yoco = new window.YocoSDK({
     publicKey: 'pk_live_b8a3cb9f2rY89ZB51d64'
+
   });
   
   // EmailJS configuration
@@ -94,7 +95,7 @@ const yoco = new window.YocoSDK({
       const result = await yoco.showPopup({
         amountInCents: Math.round(total * 100),
         currency: 'ZAR',
-        name: 'Your Store Name',
+        name: 'All Christian Brand',
         description: 'Order Payment',
         callback: async function(result) {
           if (result.error) {

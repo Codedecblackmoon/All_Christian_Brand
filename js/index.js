@@ -2,7 +2,7 @@
 const products = {
     'p1': {
         name: '"CHRIST THE SON" Black Hoodie',
-        price: 'R1.00',
+        price: 'R10.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ central role in the universe.',
         mainImage: './image/product/p1.png',
         gallery: ['./image/product/p1.png', './image/product/p44.png', './image/product/p45.png', './image/product/p46.png',],
