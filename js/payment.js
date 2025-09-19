@@ -2,7 +2,7 @@
 
 // Initialize Yoco pk_live_b8a3cb9f2rY89ZB51d64
 const yoco = new window.YocoSDK({
-    publicKey: 'pk_live_b8a3cb9f2rY89ZB51d64'
+    publicKey: 'pk_live_b8a3cb9f2rY89ZB51d64'  // Live environment - real payments
 
   });
   
@@ -13,13 +13,6 @@ const yoco = new window.YocoSDK({
     userID: 'm_XcbcDfp4HlS5nKC'
   };
 
-
-  //DIDI pk_test_ed3c54a6gOol69qa7f45
-  // const EMAIL_CONFIG = {
-  //   serviceID: 'service_rpzvisf',
-  //   templateID: 'template_4n0gh6e',
-  //   userID: 'y0aBZvbzvbY1cpD0b'
-  // };
   
   // Function to format cart items for email
   function formatCartItemsForEmail(cartItems) {

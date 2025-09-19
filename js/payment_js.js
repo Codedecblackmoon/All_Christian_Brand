@@ -1,22 +1,15 @@
 // payment.js
 
-// Initialize Yoco
+// Initialize Yoco - BACKUP FILE (not currently used)
 const yoco = new window.YocoSDK({
-    publicKey: 'pk_test_ed3c54a6gOol69qa7f45'
+    publicKey: 'pk_live_b8a3cb9f2rY89ZB51d64'  // Changed to live for consistency
   });
   
-  // EmailJS configuration
-  // const EMAIL_CONFIG = {
-  //   serviceID: 'service_4b0mwhe',
-  //   templateID: 'template_oxc16mb',
-  //   userID: 'm_XcbcDfp4HlS5nKC'
-  // };
-
-  //DIDI
+  // EmailJS configuration  
   const EMAIL_CONFIG = {
-    serviceID: 'service_rpzvisf',
-    templateID: 'template_4n0gh6e',
-    userID: 'y0aBZvbzvbY1cpD0b'
+    serviceID: 'service_4b0mwhe',
+    templateID: 'template_oxc16mb',
+    userID: 'm_XcbcDfp4HlS5nKC'
   };
   
   // Function to format cart items for email
