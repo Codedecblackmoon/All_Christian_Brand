@@ -1,0 +1,20 @@
+{
+  "name": "payfast-backend",
+  "version": "1.0.0",
+  "description": "PayFast ITN handler for All Christian Brand",
+  "main": "payfast-notify.js",
+  "scripts": {
+    "start": "node payfast-notify.js",
+    "dev": "nodemon payfast-notify.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["payfast", "payment", "webhook", "itn"],
+  "author": "All Christian Brand",
+  "license": "MIT"
+}
