@@ -117,6 +117,7 @@ button:hover{
     color: #a18e7f;
 }
 
+
 #cart-items > div:nth-child(n) > div > div:nth-child(2){
     font-size: 12px;
     padding-top: 0px;
@@ -138,6 +139,56 @@ button:hover{
     padding: 10px;
 }
 
+.new_nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  padding: 16px 0;
+  margin: 0;
+  justify-content: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.new_nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #c8b882;
+  padding-bottom: 12px;
+}
+
+.new_nav-item .new_nav-link.active {
+  color: #c8a84b;
+  border-bottom: 2px solid #c8a84b;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.new_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.new_nav ul li a:hover{
+    color: #c8a84b;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.new_nav ul li a{
+    font-style: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+} 
+
 
 .navbar i{
     padding-top: 13px;
@@ -148,6 +199,7 @@ button:hover{
     cursor: pointer;  
     transition: 0.3s ease;
 }
+
 
 #home span {
     color: #a18e7f;
