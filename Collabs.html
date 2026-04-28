@@ -17,12 +17,22 @@
         gap: 30px;
       }
 
-      .find-section{
+      .feat_{
         display: flex;
-        /* flex-direction: row; */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px 20px;
+        padding: 50px 60px;
+        gap: 30px;
+        margin-bottom: 40px;
+      }
+
+      .find-section {
+        display: flex;
+     
+        justify-content: center;
+        align-items: center;
+        padding: 50px 20px; 
       }
 
       .find_me-info{
@@ -120,6 +130,63 @@
         padding: 10px 0;
       }
 
+      .product{
+        cursor: pointer;
+        margin-bottom: 2rem;
+      }
+
+      .f_{
+        transition: 0.3s all;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .f_:hover{
+        opacity: 0.7;
+        transform: scale(1.2);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .fea_info .buy-btn{
+        background: #a18e7f;
+        transform: translateY(20px);
+        opacity: 0;
+        transition: 0.3s all;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .fea_info:hover .buy-btn{
+        transform: translateY(0);
+        opacity: 1;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+      .f_{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        transition: 0.3s all;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .do_ {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        max-width: 800px;
+      }
+
+      body > section.about-section.container.mt-5.pt-5 > div.row.align-items-center{
+        padding-top: 30px;
+      }
+
+      body > section.about-section.container.mt-5.pt-5 > div.row.align-items-center,
+      body > section.about-section.container.mt-5.pt-5 > div.bio > div > h3,
+      body > section.feat_.mx-5.py-1 > div.mt-1.py-5 > h2{
+        color: #a18e7f;
+      }
+
+
       .m{
         display: flex;
         justify-content: flex-end;
@@ -187,18 +254,16 @@
         </div>
     </section>
 
-    <section id="feature" class="py-1">
-        <div class="container mt-1 py-5">
+    <section class="feat_ mx-5 py-1">
+        <div class="mt-1 py-5">
           <h2 class="font-weight-bold text-right">Items</h2>
         </div>
 
-        <div class="row mx-auto container">
-          <div class=" product text-left col-lg-3 col-md-4 col-12">
-            
-            <img class="img-fluid mb-3" loading="lazy" src="../image/product/p103.png" alt="">
-
+        <div class="mx-auto">
+          <div class="do_  text-left ">
+            <img class="f_ img-fluid mb-3" loading="lazy" src="../image/product/p103.png" alt="">
             <div class="fea_info">
-              <h5 class="p-name">"HE DEFEATED DEATH" White T-Shirt</h5>
+              <h5 class="p-name">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quis quas mollitia. Voluptate corporis quis explicabo cum alias eveniet blanditiis mollitia est? Distinctio provident, rerum deleniti iusto sed accusamus. Laboriosam consequuntur omnis eligendi reprehenderit placeat error! Earum sit provident dolore? Vitae porro nulla sunt! Accusantium praesentium veniam qui? Iure natus esse dicta repellat impedit architecto commodi libero suscipit quos!</h5>
               <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -206,16 +271,33 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-regular fa-star"></i>
               </div>
-
+              <h4 class="p-price">R250.00</h4>
+              <button class="buy-btn">Buy Now</button>
             </div>
-            
-            <h4 class="p-price">R250.00</h4>
-            <button class="buy-btn">Buy Now</button>
-          </div>
+          </div> 
+        </div>
 
-        
+        <div class="mx-auto">
+          <div class="do_  text-left ">
+            <div class="fea_info">
+              <h5 class="p-name">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quis quas mollitia. Voluptate corporis quis explicabo cum alias eveniet blanditiis mollitia est? Distinctio provident, rerum deleniti iusto sed accusamus. Laboriosam consequuntur omnis eligendi reprehenderit placeat error! Earum sit provident dolore? Vitae porro nulla sunt! Accusantium praesentium veniam qui? Iure natus esse dicta repellat impedit architecto commodi libero suscipit quos!</h5>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h4 class="p-price">R250.00</h4>
+              <button class="buy-btn">Buy Now</button>
+            </div>
+            <img class="f_ img-fluid mb-3" loading="lazy" src="../image/product/p103.png" alt="">
+
+          </div> 
         </div>
     </section>
+
+  
 
     <section class="video-section">
       <video autoplay loop muted playsinline>
