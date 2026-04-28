@@ -616,4 +616,42 @@ footer .copyright a:hover{
     #navbarSupportedContent>ul>li:nth-child(n)>a{
         padding: 10px 0;
     }
+
+    .new_nav {
+    padding-top: 150px; /* reduce top padding on mobile */
+    margin-top: 30px; /* add margin to create space from top */
+  }
+
+  .new_nav ul {
+    display: flex;
+    flex-wrap: wrap; /* allows items to wrap to next line */
+    justify-content: center;
+    gap: 12px; /* reduce gap between items */
+    padding: 10px 8px;
+  }
+
+  .new_nav ul li a {
+    font-size: 0.85rem; /* slightly smaller text */
+  }
+
+  .new_nav-item .new_nav-link.active {
+    font-size: 0.95rem;
+    padding-bottom: 4px;
+  }
+
+  .new_nav ul li a:hover {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .new_nav ul {
+    flex-direction: column; /* stacks links vertically */
+    align-items: center;
+    gap: 8px;
+  }
+
+  .new_nav {
+    padding-top: 60px;
+  }
 }
