@@ -32,7 +32,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ central role in the universe.',
         mainImage:  './image/Mock_ups/Adonai/White_Hoodie_p4.jpg',
-        gallery: ['./image/Mock_ups/Adonai/Black_adonai_p1.jpg', './image/Mock_ups/Adonai/Black_hoodie_Adonai.jpg_p2', './image/Mock_ups/Adonai/White_adonai_p3.jpg'],
+        gallery: ['./image/Mock_ups/Adonai/Black_adonai_p1.jpg', './image/Mock_ups/Adonai/Black_hoodie_Adonai_p2.jpg', './image/Mock_ups/Adonai/White_adonai_p3.jpg'],
         rating: 4,
         category: 'Hoodies'
     },
@@ -94,8 +94,8 @@ const products = {
         name: '"Beanie" Green',
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
-        mainImage:  './image/Mock_ups/Caps/Beanies/beanie_green_p11.png',
-        gallery: ['./image/Mock_ups/Caps/Beanies/Beanies_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_pink_p12.png'],
+        mainImage:  './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png',
+        gallery: ['./image/Mock_ups/Caps/Beanies/beanie_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_pink_p12.png'],
         rating: 4,
         category: 'Hat'
     },
@@ -103,8 +103,8 @@ const products = {
         name: '"Beanie" Pink',
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
-        mainImage:  './image/Mock_ups/Caps/Beanies/beanie_pink_p12.png',
-        gallery: ['./image/Mock_ups/Caps/Beanies/Beanies_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png'],
+        mainImage:  './image/Mock_ups/Caps/Beanies/Beanies_pink_p12.png',
+        gallery: ['./image/Mock_ups/Caps/Beanies/beanie_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png'],
         rating: 4,
         category: 'Hat'
     },
@@ -112,8 +112,8 @@ const products = {
         name: '"Beanie" Blue',
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
-        mainImage:  './image/Mock_ups/Caps/Beanies/beanie_blue_p13.png',
-        gallery: ['./image/Mock_ups/Caps/Beanies/Beanies_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_red_p14.png', './image/Mock_ups/Caps/Beanies/Beanies_white_p15.png'],
+        mainImage:  './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png',
+        gallery: ['./image/Mock_ups/Caps/Beanies/beanie_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_red_p14.png', './image/Mock_ups/Caps/Beanies/Beanies_white_p15.png'],
         rating: 4,
         category: 'Hat'
     },
@@ -121,8 +121,8 @@ const products = {
         name: '"Beanie" Red',
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
-        mainImage:  './image/Mock_ups/Caps/Beanies/beanie_red_p14.png',
-        gallery: ['./image/Mock_ups/Caps/Beanies/Beanies_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png'],
+        mainImage:  './image/Mock_ups/Caps/Beanies/Beanies_red_p14.png',
+        gallery: ['./image/Mock_ups/Caps/Beanies/beanie_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png'],
         rating: 4,
         category: 'Hat'
     },
@@ -130,8 +130,8 @@ const products = {
         name: '"Beanie" white',
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
-        mainImage:  './image/Mock_ups/Caps/Beanies/beanie_white_p15.png',
-        gallery: ['./image/Mock_ups/Caps/Beanies/Beanies_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png'],
+        mainImage:  './image/Mock_ups/Caps/Beanies/Beanies_white_p15.png',
+        gallery: ['./image/Mock_ups/Caps/Beanies/beanie_black_p9.png', './image/Mock_ups/Caps/Beanies/Beanies_blue_p13.png', './image/Mock_ups/Caps/Beanies/Beanies_gray_p10.png', './image/Mock_ups/Caps/Beanies/Beanies_green_p11.png'],
         rating: 4,
         category: 'Hat'
     },
@@ -266,7 +266,7 @@ const products = {
         price: 'R160.00',
         description: 'Inspire faith and spirituality with our collection of Christian accessories, featuring powerful designs and scriptures that celebrate the love and grace of Jesus Christ.',
         mainImage:  './image/Mock_ups/Caps/Packable_hat/packable_hat_red_p30.png',
-        gallery: ['/image/Mock_ups/Caps/Packable_hat/packable_hat_black_p26.png', './image/Mock_ups/Caps/Packable_hat/packable_hat_blue_p26.png', './image/Mock_ups/Caps/Packable_hat/packable_hat_green_p28.png', './image/Mock_ups/Caps/Packable_hat/packable_hat_pink_p29.png'],
+        gallery: ['/image/Mock_ups/Caps/Packable_hat/packable_hat_black_p26.png', './image/Mock_ups/Caps/Packable_hat/packable_hat_blue_p27.png', './image/Mock_ups/Caps/Packable_hat/packable_hat_green_p28.png', './image/Mock_ups/Caps/Packable_hat/packable_hat_pink_p29.png'],
         rating: 4,
         category: 'Hat'
     },
@@ -302,7 +302,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png',
-        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_p37.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
+        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_p37.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -311,7 +311,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png',
-        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_p37.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
+        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_p37.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -320,7 +320,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png',
-        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_hoodie_p40.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_p37.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
+        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_hoodie_p40.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_p37.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -328,7 +328,7 @@ const products = {
         name: '"Citizen of Heaven" White Hoodie',
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
-        mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_37.png',
+        mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_37.png',
         gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_pink_hoodie_p39.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_hoodie_p40.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_p38.png'],
         rating: 4,
         category: 'Hoodie'
@@ -338,7 +338,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_hoodie_38.png',
-        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_pink_hoodie_p39.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_p37.png'],
+        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_pink_hoodie_p39.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_p37.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -347,7 +347,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_pink_hoodie_p39.png',
-        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_p37.png'],
+        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_p37.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -356,7 +356,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_hoodie_40.png',
-        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45hoodie_p37.png'],
+        gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_b_hoodie_p34.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_hoodie_p35.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_violet_hoodie_p36.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_hoodie_p37.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -418,7 +418,7 @@ const products = {
         name: '"Citizen of Heaven" Pink T-Shirt',
         price: 'R250.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
-        mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_pink_47.png',
+        mainImage:  './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_pink_p47.png',
         gallery: ['./image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_beige_p41.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_brown_p43.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_red_p46.png', './image/Mock_ups/Citizen_of_heaven/Citizen_of_heaven_white_p45.png'],
         rating: 4,
         category: 'T-Shirt'
@@ -482,7 +482,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_b_hoodie_p54.png',
-        gallery: ['./image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_p_hoodie.png_p55', './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_purpl_hoodie_p56.png'],
+        gallery: ['./image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_p_hoodie_p55.png', './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_purpl_hoodie_p56.png'],
         rating: 4,
         category: 'Hoodies'
     },
@@ -490,7 +490,7 @@ const products = {
         name: '"Jesus Loves You" Pink Hoodie',
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
-        mainImage:  './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_p_hoodie.png_p55',
+        mainImage:  './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_p_hoodie_p55.png',
         gallery: ['./image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_b_hoodie_p54.png', './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_purpl_hoodie_p56.png'],
         rating: 4,
         category: 'Hoodies'
@@ -500,7 +500,7 @@ const products = {
         price: 'R450.00',
         description: 'Declare the universal significance of Jesus Christ with this awe-inspiring design. "Christ the Son" is emblazoned across a stunning, stylized representation of the planet Earth, emphasizing Christ\'s central role in the universe.',
         mainImage:  './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_purpl_hoodie_p56.png',
-        gallery: ['./image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_b_hoodie_p54.png', './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_p_hoodie.png_p55'],
+        gallery: ['./image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_b_hoodie_p54.png', './image/Mock_ups/Jesus_Loves_you/Jesus_Loves_you_p_hoodie_p55.png'],
         rating: 4,
         category: 'Hoodies'
     },
@@ -806,7 +806,7 @@ const products = {
         price: 'R450.00',
         description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
         mainImage:  './image/Mock_ups/Philiphians_4_13/Philippines_4_13_B_p90.png',
-        gallery: ['./image/Mock_ups/Philiphians_4_13/Philippines_4_13_white_91.png'],
+        gallery: ['./image/Mock_ups/Philiphians_4_13/Philippines_4_13_white_p91.png'],
         rating: 4,
         category: 'Hoodie'
     },
@@ -1084,7 +1084,7 @@ const products = {
         name: '"Trust In The Lord" T-Shirt',
         price: 'R250.00',
         description: 'Proclaim the life-changing power of Jesus Christ with this inspiring design. "Jesus Saves Lives" boldly declares the transformative impact of faith on our lives.',
-        mainImage:  './image/Mock_ups/Trust_in_the_Lord/Trust_in_the_Lord_hoodie.png_p120',
+        mainImage:  './image/Mock_ups/Trust_in_the_Lord/Trust_in_the_Lord_hoodie_p120.png',
         gallery: ['./image/Mock_ups/Trust_in_the_Lord/Trust_in_the_Lord_p119.png'],
         rating: 4,
         category: 'T-Shirt'
