@@ -478,7 +478,7 @@ footer p {
     font-size: 0.8rem;
 }
 
-footer .copyright .s{
+.s{
     color: #000;
     width: 38px;
     height: 38px;
@@ -489,6 +489,13 @@ footer .copyright .s{
     border-radius: 50%;
     transition: 0.3s ease;
     margin: 0 5px;
+    margin-top: 10px;
+    
+}
+
+.s:hover{
+    color: #fff;
+    background-color: #000;
 }
 
 footer .copyright .g{

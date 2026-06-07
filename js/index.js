@@ -1118,7 +1118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (products[productId]) {
                 localStorage.setItem('selectedProduct', JSON.stringify(products[productId]));
                 const isSubdir = window.location.pathname.includes('/shop/') || window.location.pathname.includes('\\shop\\');
-                window.location.href = isSubdir ? '../product.html' : 'product.html';
+                window.location.href = isSubdir ? '../product.html' : './product.html';
             }
         });
     });
