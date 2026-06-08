@@ -210,6 +210,52 @@
         justify-content: flex-end;
       }
 
+      /* Gallery Styles */
+      .gallery-section {
+        padding: 60px 0;
+        overflow: hidden;
+        background-color: #fff;
+      }
+
+      .gallery-container {
+        display: flex;
+        width: calc(300px * 42); /* 21 images * 2 for seamless loop */
+        animation: scroll 60s linear infinite;
+      }
+
+      .gallery-container:hover {
+        animation-play-state: paused;
+      }
+
+      .gallery-item {
+        width: 300px;
+        height: 350px;
+        padding: 0 10px;
+        flex-shrink: 0;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.05);
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-300px * 21));
+        }
+      }
+
       @media (max-width: 768px) {
         /* Bio section */
         .bio {
@@ -326,7 +372,7 @@
                 <a class="nav-link" href="../About_us.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../Collabs.html">Collabs</a>
+                <a class="nav-link active" href="Collabs.html">Collabs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../Contact_us.html">Contact us</a>
@@ -409,6 +455,55 @@
         
     </section>
 
+    <section class="gallery-section">
+      <div class="gallery-container">
+        <!-- Original 21 images -->
+        <div class="gallery-item"><img src="../image/gallery/(1) (10).jpg" alt="Gallery Image 1"></div>
+        <div class="gallery-item"><img src="../image/gallery/(10) (5).jpg" alt="Gallery Image 10"></div>
+        <div class="gallery-item"><img src="../image/gallery/(11) (7).jpg" alt="Gallery Image 11"></div>
+        <div class="gallery-item"><img src="../image/gallery/(12) (7).jpg" alt="Gallery Image 12"></div>
+        <div class="gallery-item"><img src="../image/gallery/(13) (8).jpg" alt="Gallery Image 13"></div>
+        <div class="gallery-item"><img src="../image/gallery/(14) (7).jpg" alt="Gallery Image 14"></div>
+        <div class="gallery-item"><img src="../image/gallery/(15) (6).jpg" alt="Gallery Image 15"></div>
+        <div class="gallery-item"><img src="../image/gallery/(16) (5).jpg" alt="Gallery Image 16"></div>
+        <div class="gallery-item"><img src="../image/gallery/(17) (6).jpg" alt="Gallery Image 17"></div>
+        <div class="gallery-item"><img src="../image/gallery/(18) (6).jpg" alt="Gallery Image 18"></div>
+        <div class="gallery-item"><img src="../image/gallery/(19) (4).jpg" alt="Gallery Image 19"></div>
+        <div class="gallery-item"><img src="../image/gallery/(2) (11).jpg" alt="Gallery Image 2"></div>
+        <div class="gallery-item"><img src="../image/gallery/(20) (6).jpg" alt="Gallery Image 20"></div>
+        <div class="gallery-item"><img src="../image/gallery/(3) (8).jpg" alt="Gallery Image 3"></div>
+        <div class="gallery-item"><img src="../image/gallery/(4) (8).jpg" alt="Gallery Image 4"></div>
+        <div class="gallery-item"><img src="../image/gallery/(5) (8).jpg" alt="Gallery Image 5"></div>
+        <div class="gallery-item"><img src="../image/gallery/(6) (8).jpg" alt="Gallery Image 6"></div>
+        <div class="gallery-item"><img src="../image/gallery/(7) (8).jpg" alt="Gallery Image 7"></div>
+        <div class="gallery-item"><img src="../image/gallery/(8) (10).jpg" alt="Gallery Image 8"></div>
+        <div class="gallery-item"><img src="../image/gallery/(9) (9).jpg" alt="Gallery Image 9"></div>
+        <div class="gallery-item"><img src="../image/gallery/i.jpg" alt="Gallery Image i"></div>
+
+        <!-- Duplicated images for infinite loop -->
+        <div class="gallery-item"><img src="../image/gallery/(1) (10).jpg" alt="Gallery Image 1"></div>
+        <div class="gallery-item"><img src="../image/gallery/(10) (5).jpg" alt="Gallery Image 10"></div>
+        <div class="gallery-item"><img src="../image/gallery/(11) (7).jpg" alt="Gallery Image 11"></div>
+        <div class="gallery-item"><img src="../image/gallery/(12) (7).jpg" alt="Gallery Image 12"></div>
+        <div class="gallery-item"><img src="../image/gallery/(13) (8).jpg" alt="Gallery Image 13"></div>
+        <div class="gallery-item"><img src="../image/gallery/(14) (7).jpg" alt="Gallery Image 14"></div>
+        <div class="gallery-item"><img src="../image/gallery/(15) (6).jpg" alt="Gallery Image 15"></div>
+        <div class="gallery-item"><img src="../image/gallery/(16) (5).jpg" alt="Gallery Image 16"></div>
+        <div class="gallery-item"><img src="../image/gallery/(17) (6).jpg" alt="Gallery Image 17"></div>
+        <div class="gallery-item"><img src="../image/gallery/(18) (6).jpg" alt="Gallery Image 18"></div>
+        <div class="gallery-item"><img src="../image/gallery/(19) (4).jpg" alt="Gallery Image 19"></div>
+        <div class="gallery-item"><img src="../image/gallery/(2) (11).jpg" alt="Gallery Image 2"></div>
+        <div class="gallery-item"><img src="../image/gallery/(20) (6).jpg" alt="Gallery Image 20"></div>
+        <div class="gallery-item"><img src="../image/gallery/(3) (8).jpg" alt="Gallery Image 3"></div>
+        <div class="gallery-item"><img src="../image/gallery/(4) (8).jpg" alt="Gallery Image 4"></div>
+        <div class="gallery-item"><img src="../image/gallery/(5) (8).jpg" alt="Gallery Image 5"></div>
+        <div class="gallery-item"><img src="../image/gallery/(6) (8).jpg" alt="Gallery Image 6"></div>
+        <div class="gallery-item"><img src="../image/gallery/(7) (8).jpg" alt="Gallery Image 7"></div>
+        <div class="gallery-item"><img src="../image/gallery/(8) (10).jpg" alt="Gallery Image 8"></div>
+        <div class="gallery-item"><img src="../image/gallery/(9) (9).jpg" alt="Gallery Image 9"></div>
+        <div class="gallery-item"><img src="../image/gallery/i.jpg" alt="Gallery Image i"></div>
+      </div>
+    </section>
   
 
     <!-- <section class="video-section">
